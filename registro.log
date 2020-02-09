@@ -1,0 +1,30 @@
+2020-02-09 03:02:11,299 INFO     Starting http server
+2020-02-09 03:04:03,654 INFO     Starting http server
+2020-02-09 03:04:10,781 INFO     br_v1
+2020-02-09 03:04:10,781 INFO     <MultiDictProxy('timestamp': '1581228250', 'username': 'admin', 'hmac': 'dc428a8a86ee54e4bd0c11c566d04257a515bec0', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-09 03:04:12,154 INFO     br_v1
+2020-02-09 03:04:12,154 INFO     <MultiDictProxy('timestamp': '1581228252', 'username': 'admin', 'hmac': '89a91ba8d8b777285439906926d2c83b688a736a', 'params': '{"method":"hospedes.rpc_get","uuid":"fcc0970b-12d0-41e2-81ef-6b7b98126760-1445547427.56-a45d362963ec"}')>
+2020-02-09 03:04:14,105 INFO     br_v1
+2020-02-09 03:04:14,105 INFO     <MultiDictProxy('timestamp': '1581228254', 'username': 'admin', 'hmac': 'b814f8a45864b0a35988cc5858b92077d31d8959', 'params': '{"method":"hospedes.rpc_get","uuid":"8c7eee65-a401-4a71-975a-35402484c1d2-1445547572.65-a45d362963ec"}')>
+2020-02-09 03:04:14,610 INFO     br_v1
+2020-02-09 03:04:14,611 INFO     <MultiDictProxy('timestamp': '1581228254', 'username': 'admin', 'hmac': 'a96778d67fdbbdc008ca3e70590e218c45cd5e4b', 'params': '{"method":"hospedes.rpc_get","uuid":"7cffc6a5-878f-4977-89a7-9d30c337a6da-1445547336.37-a45d362963ec"}')>
+2020-02-09 03:04:15,305 INFO     br_v1
+2020-02-09 03:04:15,305 INFO     <MultiDictProxy('timestamp': '1581228255', 'username': 'admin', 'hmac': '9a4154fd474298b502ba2be08b76374563f27f5d', 'params': '{"method":"hospedes.rpc_get","uuid":"7cffc6a5-878f-4977-89a7-9d30c337a6da-1445547336.37-a45d362963ec"}')>
+2020-02-09 03:04:16,617 INFO     br_v1
+2020-02-09 03:04:16,617 INFO     <MultiDictProxy('timestamp': '1581228256', 'username': 'admin', 'hmac': '6e18c1ffe6edb28f56040898a2c87ceff4fe19a3', 'params': '{"method":"hospedes.rpc_get","uuid":"7cffc6a5-878f-4977-89a7-9d30c337a6da-1445547336.37-a45d362963ec"}')>
+2020-02-09 03:04:17,065 INFO     br_v1
+2020-02-09 03:04:17,065 INFO     <MultiDictProxy('timestamp': '1581228257', 'username': 'admin', 'hmac': '67c54838c698712fbd8ef612714027dc48cb475a', 'params': '{"method":"hospedes.rpc_get","uuid":"8a080685-b471-4a9a-869a-f5482bd706bc-1445547272.13-a45d362963ec"}')>
+2020-02-09 03:04:18,818 INFO     br_v1
+2020-02-09 03:04:18,818 INFO     <MultiDictProxy('timestamp': '1581228258', 'username': 'admin', 'hmac': '8387c9081d8e2b8b9622cbb2626069bbeb54ed5e', 'params': '{"method":"hospedes.rpc_get","uuid":"8a080685-b471-4a9a-869a-f5482bd706bc-1445547272.13-a45d362963ec"}')>
+2020-02-09 03:04:19,674 INFO     br_v1
+2020-02-09 03:04:19,674 INFO     <MultiDictProxy('timestamp': '1581228259', 'username': 'admin', 'hmac': '4fd506a7eedd984d8010cd66281c2e6f2d40c3ef', 'params': '{"method":"hospedes.rpc_get","uuid":"8cf5e392-c60c-4d1d-9ff7-6310d1b4e3a7-1445547454.4-a45d362963ec"}')>
+2020-02-09 03:04:21,161 INFO     br_v1
+2020-02-09 03:04:21,161 INFO     <MultiDictProxy('timestamp': '1581228261', 'username': 'admin', 'hmac': 'bb5935f7c691dca122b8fb3d31cbb6a2171043df', 'params': '{"method":"hospedes.rpc_get","uuid":"b38fced9-ca9b-4c33-9a5b-1ee313914f5f-1445547274.52-a45d362963ec"}')>
+2020-02-09 03:04:21,945 INFO     br_v1
+2020-02-09 03:04:21,946 INFO     <MultiDictProxy('timestamp': '1581228261', 'username': 'admin', 'hmac': 'b67ee76996502c62703f4935eba90e28ee90c47b', 'params': '{"method":"hospedes.rpc_get","uuid":"62993d68-f2a5-4f40-9e6f-59ca436d6e44-1445547387.02-a45d362963ec"}')>
+2020-02-09 03:04:22,826 INFO     br_v1
+2020-02-09 03:04:22,826 INFO     <MultiDictProxy('timestamp': '1581228262', 'username': 'admin', 'hmac': '0889327c9ce568f475845fb0c61aad9ec844e909', 'params': '{"method":"hospedes.rpc_get","uuid":"8cf5e392-c60c-4d1d-9ff7-6310d1b4e3a7-1445547454.4-a45d362963ec"}')>
+2020-02-09 03:04:23,313 INFO     br_v1
+2020-02-09 03:04:23,313 INFO     <MultiDictProxy('timestamp': '1581228263', 'username': 'admin', 'hmac': '23d09abf50f69db176c1e044fdd5811769807761', 'params': '{"method":"hospedes.rpc_get","uuid":"8c7eee65-a401-4a71-975a-35402484c1d2-1445547572.65-a45d362963ec"}')>
+2020-02-09 03:04:23,761 INFO     br_v1
+2020-02-09 03:04:23,761 INFO     <MultiDictProxy('timestamp': '1581228263', 'username': 'admin', 'hmac': 'e7259d16f9d170fa6995e962c2e9babfb3083a3e', 'params': '{"method":"hospedes.rpc_get","uuid":"fcc0970b-12d0-41e2-81ef-6b7b98126760-1445547427.56-a45d362963ec"}')>
