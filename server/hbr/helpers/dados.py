@@ -7,9 +7,6 @@ Created on Sun Oct  4 06:56:41 2015
 from itertools import groupby
 import unicodedata
 
-from . import acentos
-from . import acentos
-
 def somente_numeros(valor):
     return "".join(_ for _ in valor if _ in "1234567890")    
     
