@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="127ef5e9-9ba0-415b-aebb-4ca3b492716b" name="Default" comment="inicial">
+      <change afterPath="$PROJECT_DIR$/cliente/hotelmapa/hotel/cliente/clientes_real.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cliente/hotelmapa/hotel/cliente/frm_apartamento.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cliente/hotelmapa/hotel/cliente/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cliente/hotelmapa/hotel/cliente/tkapp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cliente/hotelmapa/hotel/cliente/tkhelper/gtkhelper.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/cliente/hotelmapa/hotel" />
+  </component>
+  <component name="ProjectId" id="1XOuOKyBezccArFkmmJ3WcwhmLz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server" />
+      <recent name="$PROJECT_DIR$/server/static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/static" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="fichario" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="127ef5e9-9ba0-415b-aebb-4ca3b492716b" name="Default" comment="" />
+      <created>1580265112366</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580265112366</updated>
+    </task>
+    <task id="LOCAL-00001" summary="inicial">
+      <created>1580971505281</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580971505281</updated>
+    </task>
+    <task id="LOCAL-00002" summary="inicial">
+      <created>1581140717781</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581140717781</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="inicial" />
+    <option name="LAST_COMMIT_MESSAGE" value="inicial" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="457" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580968022020">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="457" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1580968022020" />
+    <state x="65" y="24" width="1855" height="1056" key="CommitChangelistDialog2" timestamp="1581227793511">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="65" y="24" width="1855" height="1056" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1581227793511" />
+    <state x="780" y="297" key="FileChooserDialogImpl" timestamp="1581146930069">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="780" y="297" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1581146930069" />
+    <state width="1832" height="424" key="GridCell.Tab.0.bottom" timestamp="1581147345466">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1832" height="424" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1581147345466" />
+    <state width="1832" height="424" key="GridCell.Tab.0.center" timestamp="1581147345466">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1832" height="424" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1581147345466" />
+    <state width="1832" height="424" key="GridCell.Tab.0.left" timestamp="1581147345465">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1832" height="424" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1581147345465" />
+    <state width="1832" height="424" key="GridCell.Tab.0.right" timestamp="1581147345466">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1832" height="424" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1581147345466" />
+    <state x="486" y="174" key="SettingsEditor" timestamp="1580968510785">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="486" y="174" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1580968510785" />
+    <state width="254" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1581147091398">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="254" height="198" key="ShowFilterAction_Filter_Popup/65.24.1855.1056@65.24.1855.1056" timestamp="1581147091398" />
+    <state x="164" y="96" width="1657" height="885" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1581147131133">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="164" y="96" width="1657" height="885" key="com.intellij.history.integration.ui.views.FileHistoryDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1581147131133" />
+    <state x="654" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1581227776026">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="654" y="381" key="com.intellij.ide.util.TipDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1581227776026" />
+    <state x="702" y="406" key="git4idea.rebase.GitRebaseDialog" timestamp="1581147152965">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="702" y="406" key="git4idea.rebase.GitRebaseDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1581147152965" />
+    <state x="655" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1581147106760">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="655" y="236" width="672" height="678" key="search.everywhere.popup/65.24.1855.1056@65.24.1855.1056" timestamp="1581147106760" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/server/hbr/helpers/dados.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

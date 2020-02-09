@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt_BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <script type="text/javascript" src="/static/Brython-3.8.6/brython.js"></script>
+        <script type="text/javascript" src="/static/Brython-3.8.6/brython_stdlib.js"></script>
+        <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <script src="/static/jquery-3.4.1.min.js"></script>
+        <script src="/static/popper.min.js"></script>
+        <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+    </head>
+    <body onload="brython()">
+
+    <script type="text/python">
+    </script>
+
+    <nav class="tabbable tabs-bellow"> <!-- Only required for left/right tabs -->
+
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#tab_login" data-toggle="tab">Login</a></li>
+        <li><a href="#tab_usuarios" data-toggle="tab">Usuários</a></li>
+        <li><a href="#tab_ficha_hospede" data-toggle="tab">Hospedes</a></li>
+      </ul>
+
+      <div class="tab-content"  style="padding-bottom: 9px; border-bottom: 1px solid #ddd;">
+        <div class="tab-pane active" id="tab_login">
+        </div>
+        <div class="tab-pane" id="tab_usuarios">
+        </div>
+        <div class="tab-pane" id="tab_ficha_hospede">
+        </div>
+      </div>
+
+    </nav>
+
+
+</body>
+<script>
+    $("#tab_login").load("/static/form_login.html?_=" + (new Date()).getTime(), function() {});
+    $("#tab_usuarios").load("/static/form_usuario.html?_=" + (new Date()).getTime(), function() {});
+    $("#tab_ficha_hospede").load("/static/form_hospede.html?_=" + (new Date()).getTime(), function() {});
+</script>
+</html>

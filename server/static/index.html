@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt_BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!--        <script type="text/javascript" src="/static/Brython-3.8.6/brython.js"></script>-->
+<!--        <script type="text/javascript" src="/static/Brython-3.8.6/brython_stdlib.js"></script>-->
+        <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!--        <link href="/static/jquery.dataTables.min.css" rel="stylesheet">-->
+<!--        <link href="/static/dataTables.bootstrap4.min.css" rel="stylesheet">-->
+
+        <script src="/static/jquery-3.4.1.min.js"></script>
+        <script src="/static/popper.min.js"></script>
+        <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+<!--        <script src="/static/jquery.dataTables.min.js"></script>-->
+<!--        <script src="/static/dataTables.bootstrap4.min.js"></script>-->
+        <script src="/static/CryptoJS/rollups/sha1.js"></script>
+        <script src="/static/CryptoJS/rollups/sha1.js"></script>
+
+        <script> $.getScript( "js/globals.js?_=" + (new Date()).getTime() ); </script>
+        <script> $.getScript( "js/helper.js?_=" + (new Date()).getTime() ); </script>
+
+<!--        <script> $.getScript( "js/horus/index.js?_=" + (new Date()).getTime() ); </script>-->
+<!--        <script> $.getScript( "js/horus/usuarios.js?_=" + (new Date()).getTime() ); </script>-->
+<!--        <script> $.getScript( "js/horus/usuariotags.js?_=" + (new Date()).getTime() ); </script>-->
+<!--        <script> $.getScript( "js/horus/unidades.js?_=" + (new Date()).getTime() ); </script>-->
+<!--        <script> $.getScript( "js/horus/unidadetags.js?_=" + (new Date()).getTime() ); </script>-->
+
+    </head>
+    <body onload="">
+
+<div class="container-fluid bg-light">
+    <div class="col-12">
+    <div class="row" id="cabecalho">
+        Cabeçalho
+    </div>
+    <div class="row">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link" id="home-tab" data-toggle="tab" href="#tab_login" role="tab">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#tab_usuarios" role="tab">Usuários</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" id="contact-tab" data-toggle="tab" href="#tab_ficha_hospede" role="tab">Hospedes</a>
+          </li>
+        </ul>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade" id="tab_login" role="tabpanel">...</div>
+              <div class="tab-pane fade" id="tab_usuarios" role="tabpanel">...</div>
+              <div class="tab-pane fade show active" id="tab_ficha_hospede" role="tabpanel">...</div>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="rodape">
+        Rodapé
+    </div>
+</div>
+</div>
+</body>
+<script>
+    $("#tab_login").load("/static/form_login.html?_=" + (new Date()).getTime(), function() {});
+    $("#tab_usuarios").load("/static/form_usuario.html?_=" + (new Date()).getTime(), function() {});
+    $("#tab_ficha_hospede").load("/static/form_hospede.html?_=" + (new Date()).getTime(), function() {});
+</script>
+
+</html>

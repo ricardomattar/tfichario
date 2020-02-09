@@ -1,0 +1,765 @@
+2020-01-28 23:41:31,845 INFO     Starting http server
+2020-01-29 23:19:34,160 INFO     Starting http server
+2020-01-30 19:40:44,088 INFO     Starting http server
+2020-01-31 04:09:24,880 INFO     Starting http server
+2020-02-02 15:53:19,790 INFO     Starting http server
+2020-02-02 21:25:05,897 INFO     Starting http server
+2020-02-03 04:28:26,397 INFO     Starting http server
+2020-02-03 04:28:54,232 INFO     Starting http server
+2020-02-04 02:39:15,003 INFO     Starting http server
+2020-02-04 03:04:23,540 INFO     Starting http server
+2020-02-04 03:06:21,801 INFO     Starting http server
+2020-02-04 03:08:17,290 INFO     Starting http server
+2020-02-04 03:14:47,230 INFO     Starting http server
+2020-02-04 03:15:18,355 INFO     Starting http server
+2020-02-04 03:16:09,797 INFO     Starting http server
+2020-02-04 03:16:45,623 INFO     Starting http server
+2020-02-04 03:18:38,188 INFO     Starting http server
+2020-02-04 03:23:16,467 INFO     Starting http server
+2020-02-04 03:25:02,391 INFO     Starting http server
+2020-02-04 03:37:33,263 INFO     br_v1
+2020-02-04 03:37:33,263 INFO     <MultiDictProxy('timestamp': '1580798253.2610214', 'username': 'admin', 'hmac': '3ee2dbe81e2d1d9a6ffcc60c5e99d4935dd3140b', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-04 15:05:29,645 INFO     Starting http server
+2020-02-04 15:05:40,323 INFO     Starting http server
+2020-02-04 15:06:14,066 INFO     br_v1
+2020-02-04 15:06:14,066 INFO     <MultiDictProxy('timestamp': '1580839574.0620677', 'username': 'admin', 'hmac': '87e36b72e3f59d104276e280cf62a309bf2b5551', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-04 15:07:19,530 INFO     Starting http server
+2020-02-04 15:07:27,542 INFO     Starting http server
+2020-02-04 15:07:30,415 INFO     br_v1
+2020-02-04 15:07:30,416 INFO     <MultiDictProxy('timestamp': '1580839650.4128754', 'username': 'admin', 'hmac': '83a32865d898e80e8f5c83688692afbd96ddd219', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-04 15:07:51,273 INFO     Starting http server
+2020-02-04 15:08:04,030 INFO     Starting http server
+2020-02-04 15:08:06,669 INFO     br_v1
+2020-02-04 15:08:06,669 INFO     <MultiDictProxy('timestamp': '1580839686.6670523', 'username': 'admin', 'hmac': '97d83db075c761effa490e21be72c0eb7d858139', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-04 15:13:19,233 INFO     Starting http server
+2020-02-04 15:13:23,514 INFO     br_v1
+2020-02-04 15:13:23,515 INFO     <MultiDictProxy('timestamp': '1580840003.512173', 'username': 'admin', 'hmac': '09f14855ae8f5762bc361325d070e2ba9edeedf6', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-04 15:13:58,965 INFO     Starting http server
+2020-02-04 15:14:00,915 INFO     br_v1
+2020-02-04 15:14:00,916 INFO     <MultiDictProxy('timestamp': '1580840040.9111488', 'username': 'admin', 'hmac': 'fe329e398fa234eca13400c397e4ef71c5dd4afa', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-04 20:45:43,461 INFO     Starting http server
+2020-02-06 02:53:50,598 INFO     Starting http server
+2020-02-06 02:55:17,222 INFO     Starting http server
+2020-02-06 02:55:57,599 INFO     br_v1
+2020-02-06 02:55:57,599 INFO     <MultiDictProxy('timestamp': '1580968557.5949194', 'username': 'admin', 'hmac': '38d16c1a8debff725aee01e305858066c6c6fcc1', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 02:57:18,503 INFO     br_v1
+2020-02-06 02:57:18,504 INFO     <MultiDictProxy('timestamp': '1580968638.5016882', 'username': 'admin', 'hmac': '5ec4fb14f96aa06ab09ef6e9b07fd0452bb825e9', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 02:59:19,654 INFO     br_v1
+2020-02-06 02:59:19,654 INFO     <MultiDictProxy('timestamp': '1580968759.6520336', 'username': 'admin', 'hmac': '89573ef4d1f1811d4b5c5807b4d2f216b3dbabf2', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 02:59:39,541 INFO     br_v1
+2020-02-06 02:59:39,541 INFO     <MultiDictProxy('timestamp': '1580968779.5393338', 'username': 'admin', 'hmac': '037393152284dd921507101e5410bd37de4ab2dc', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 03:01:41,441 INFO     br_v1
+2020-02-06 03:01:41,441 INFO     <MultiDictProxy('timestamp': '1580968901.4393933', 'username': 'admin', 'hmac': 'aaa699455620dcb49ad6be988e29828fd8424743', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 03:03:17,733 INFO     Starting http server
+2020-02-06 03:03:21,728 INFO     br_v1
+2020-02-06 03:03:21,728 INFO     <MultiDictProxy('timestamp': '1580969001.7258961', 'username': 'admin', 'hmac': '1ee7f96a00b845d5a79ddadbce755331fc3917b1', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 03:06:10,710 INFO     Starting http server
+2020-02-06 03:06:16,062 INFO     br_v1
+2020-02-06 03:06:16,062 INFO     <MultiDictProxy('timestamp': '1580969176.0596068', 'username': 'admin', 'hmac': 'a598455b38b451f84c1468f53da9c739f606b3aa', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 03:07:43,977 INFO     Starting http server
+2020-02-06 03:07:45,691 INFO     br_v1
+2020-02-06 03:07:45,692 INFO     <MultiDictProxy('timestamp': '1580969265.689291', 'username': 'admin', 'hmac': 'e4588b75a327413384d2ff307911cd9b79f48720', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 03:10:34,956 INFO     Starting http server
+2020-02-06 03:10:36,665 INFO     br_v1
+2020-02-06 03:10:36,666 INFO     <MultiDictProxy('timestamp': '1580969436.6632762', 'username': 'admin', 'hmac': 'f788ac023c430cf081189388505bc237b26ffe9d', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 03:10:46,921 INFO     br_v1
+2020-02-06 03:10:46,921 INFO     <MultiDictProxy('timestamp': '1580969446.9193013', 'username': 'admin', 'hmac': '978a61a45ee8ebc28cd843ab8993217860e28eb5', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 03:12:41,311 INFO     Starting http server
+2020-02-06 03:12:44,582 INFO     br_v1
+2020-02-06 03:12:44,582 INFO     <MultiDictProxy('timestamp': '1580969564.580208', 'username': 'admin', 'hmac': '0b9345da58550ac06fc132a5c3d772e494c69df4', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 03:14:48,038 INFO     Starting http server
+2020-02-06 03:14:50,038 INFO     br_v1
+2020-02-06 03:14:50,039 INFO     <MultiDictProxy('timestamp': '1580969690.0364747', 'username': 'admin', 'hmac': '1c61fa074be250221cb7614b81089a4ee7a683da', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 03:15:59,922 INFO     Starting http server
+2020-02-06 03:16:01,619 INFO     br_v1
+2020-02-06 03:16:01,620 INFO     <MultiDictProxy('timestamp': '1580969761.6175957', 'username': 'admin', 'hmac': '11c5c36b89bb576c8491585bc2c0ffe3be176071', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 03:17:22,553 INFO     Starting http server
+2020-02-06 03:17:24,722 INFO     br_v1
+2020-02-06 03:17:24,722 INFO     <MultiDictProxy('timestamp': '1580969844.7198775', 'username': 'admin', 'hmac': '6a52e15ec3097524a3bd75ceda233a035d2cac5e', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 03:18:19,908 INFO     Starting http server
+2020-02-06 03:18:21,249 INFO     br_v1
+2020-02-06 03:18:21,249 INFO     <MultiDictProxy('timestamp': '1580969901.2469382', 'username': 'admin', 'hmac': 'e0e7e82eb24d93726aa03870f05d51996978ad10', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 03:21:14,149 INFO     Starting http server
+2020-02-06 03:21:18,414 INFO     br_v1
+2020-02-06 03:21:18,414 INFO     <MultiDictProxy('timestamp': '1580970078.4118757', 'username': 'admin', 'hmac': '0be2d0fc0a0034b5cf78309a0a6e1f87416c752f', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 03:21:56,265 INFO     Starting http server
+2020-02-06 03:21:58,285 INFO     br_v1
+2020-02-06 03:21:58,286 INFO     <MultiDictProxy('timestamp': '1580970118.2832658', 'username': 'admin', 'hmac': '21c2899ee26795cdc4245bb934809be1c946c24d', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 03:25:20,147 INFO     Starting http server
+2020-02-06 03:25:23,497 INFO     br_v1
+2020-02-06 03:25:23,498 INFO     <MultiDictProxy('timestamp': '1580970323.4952426', 'username': 'admin', 'hmac': '7a1121b17832612ffba370068b86bf09d89f9738', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 03:26:22,115 INFO     Starting http server
+2020-02-06 03:26:24,936 INFO     br_v1
+2020-02-06 03:26:24,936 INFO     <MultiDictProxy('timestamp': '1580970384.9340465', 'username': 'admin', 'hmac': 'f9d03fd30629cf648b927eb62a169e6d9eccad9b', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 03:27:40,071 INFO     Starting http server
+2020-02-06 03:27:41,815 INFO     br_v1
+2020-02-06 03:27:41,815 INFO     <MultiDictProxy('timestamp': '1580970461.8127117', 'username': 'admin', 'hmac': '7c4bc9d0122c62c736a9cf8dd0e1bcfb54210c0e', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 03:30:40,538 INFO     Starting http server
+2020-02-06 03:30:42,901 INFO     br_v1
+2020-02-06 03:30:42,902 INFO     <MultiDictProxy('timestamp': '1580970642.8989594', 'username': 'admin', 'hmac': '04ac944fef77a41c14450babcfccee434e43c70b', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 03:34:22,280 INFO     Starting http server
+2020-02-06 03:34:26,255 INFO     br_v1
+2020-02-06 03:34:26,256 INFO     <MultiDictProxy('timestamp': '1580970866.253324', 'username': 'admin', 'hmac': '0320d9618b8448670d4c523f36e4730a93dae280', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 03:37:05,532 INFO     Starting http server
+2020-02-06 03:37:07,644 INFO     br_v1
+2020-02-06 03:37:07,644 INFO     <MultiDictProxy('timestamp': '1580971027.6419163', 'username': 'admin', 'hmac': '51571828763a7b8bbf90a0503e4672bf287b96dc', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 03:41:35,480 INFO     br_v1
+2020-02-06 03:41:35,480 INFO     <MultiDictProxy('timestamp': '1580971295.4786386', 'username': 'admin', 'hmac': '685432671c5143f77b4b0bcb5b61bce5e943deed', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 03:41:52,437 INFO     Starting http server
+2020-02-06 03:41:53,831 INFO     br_v1
+2020-02-06 03:41:53,831 INFO     <MultiDictProxy('timestamp': '1580971313.829023', 'username': 'admin', 'hmac': 'dd3c6bba71ef5ba8ed4937ccbb398c0b74d6aa0f', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 03:42:08,817 INFO     Starting http server
+2020-02-06 03:42:11,480 INFO     br_v1
+2020-02-06 03:42:11,481 INFO     <MultiDictProxy('timestamp': '1580971331.477377', 'username': 'admin', 'hmac': '4cbc27dfadeabb6299bf7869680a52caa4ad465b', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 03:59:39,056 INFO     Starting http server
+2020-02-06 03:59:42,903 INFO     br_v1
+2020-02-06 03:59:42,903 INFO     <MultiDictProxy('timestamp': '1580972382.9005296', 'username': 'admin', 'hmac': '14d79fe0e90cff9a75e1b48a8bc7d61fb13b3eb5', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 03:59:44,325 INFO     br_v1
+2020-02-06 03:59:44,325 INFO     <MultiDictProxy('timestamp': '1580972384.3236418', 'username': 'admin', 'hmac': '8b7eb1a65db82133095aa329468b0f046c6328b3', 'params': '{"method": "hospedes.rpc_query", "query": "ricardo%"}')>
+2020-02-06 17:23:14,186 INFO     Starting http server
+2020-02-06 17:25:44,693 INFO     Starting http server
+2020-02-06 17:27:40,416 INFO     Starting http server
+2020-02-06 18:20:29,322 INFO     br_v1
+2020-02-06 18:20:29,322 INFO     <MultiDictProxy('timestamp': '1581024029', 'username': 'admin', 'hmac': 'ba844abf3ce0935656b349c621c136d18276cab4', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-06 18:21:07,527 INFO     br_v1
+2020-02-06 18:21:07,528 INFO     <MultiDictProxy('timestamp': '1581024067', 'username': 'admin', 'hmac': '53a2de8fe7d5f561ed6d9d9584c7c3fc0f71fc00', 'params': '{"method":"hospedes.rpc_query","query":"fabiana borges"}')>
+2020-02-06 18:21:19,367 INFO     br_v1
+2020-02-06 18:21:19,367 INFO     <MultiDictProxy('timestamp': '1581024079', 'username': 'admin', 'hmac': '79dd09af9730d92ae748dceb850b86020848a21a', 'params': '{"method":"hospedes.rpc_query","query":"fabiana borges"}')>
+2020-02-06 18:21:38,135 INFO     br_v1
+2020-02-06 18:21:38,135 INFO     <MultiDictProxy('timestamp': '1581024098', 'username': 'admin', 'hmac': '7887b789ab857aa7b1530b2c7bbb13100247d102', 'params': '{"method":"hospedes.rpc_query","query":"sidimar"}')>
+2020-02-06 18:21:41,861 INFO     br_v1
+2020-02-06 18:21:41,861 INFO     <MultiDictProxy('timestamp': '1581024101', 'username': 'admin', 'hmac': 'f13dc1d8f71f94000120e98258d37c64efdecd45', 'params': '{"method":"hospedes.rpc_query","query":"sid"}')>
+2020-02-06 18:29:53,991 INFO     br_v1
+2020-02-06 18:29:53,991 INFO     <MultiDictProxy('timestamp': '1581024593', 'username': 'admin', 'hmac': '016fee87af70a7b3f3de7c1b1c8413e7cfd6ae96', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-06 18:30:16,151 INFO     br_v1
+2020-02-06 18:30:16,151 INFO     <MultiDictProxy('timestamp': '1581024616', 'username': 'admin', 'hmac': '6c2e4dea58f54d3ae43588caf1ec8cf378cbaf87', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-06 18:58:08,192 INFO     Starting http server
+2020-02-06 19:02:43,682 INFO     br_v1
+2020-02-06 19:02:43,683 INFO     <MultiDictProxy('timestamp': '1581026563', 'username': 'admin', 'hmac': 'dd5b16603fb3077b0f68a2e75b3e2db7f2ad8305', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-06 19:02:52,384 INFO     br_v1
+2020-02-06 19:02:52,384 INFO     <MultiDictProxy('timestamp': '1581026572', 'username': 'admin', 'hmac': 'a456c06ffab1f3cbc8bc20c9f84e13ff62065b59', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-06 19:03:25,264 INFO     br_v1
+2020-02-06 19:03:25,265 INFO     <MultiDictProxy('timestamp': '1581026605', 'username': 'admin', 'hmac': '55d68745ad50dd87b258ae7f90c682d3e701274c', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-06 19:04:00,527 INFO     br_v1
+2020-02-06 19:04:00,527 INFO     <MultiDictProxy('timestamp': '1581026640', 'username': 'admin', 'hmac': '36910b79a19d7c4bf078c7025ca6275a3b0bde60', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-06 19:04:03,502 INFO     br_v1
+2020-02-06 19:04:03,502 INFO     <MultiDictProxy('timestamp': '1581026643', 'username': 'admin', 'hmac': 'a042bc6f26c68509221e11d49f912bc329ad31c5', 'params': '{"method":"hospedes.rpc_query","query":"fab"}')>
+2020-02-06 19:04:13,198 INFO     br_v1
+2020-02-06 19:04:13,198 INFO     <MultiDictProxy('timestamp': '1581026653', 'username': 'admin', 'hmac': '7173a8652dcccb4b70afd85cf037b4dce3d67b8a', 'params': '{"method":"hospedes.rpc_query","query":"rom"}')>
+2020-02-06 19:07:09,692 INFO     br_v1
+2020-02-06 19:07:09,692 INFO     <MultiDictProxy('timestamp': '1581026829', 'username': 'admin', 'hmac': 'eba5bf05989180076e17526ffafbac9d368a1bbb', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-06 19:11:15,657 INFO     br_v1
+2020-02-06 19:11:15,657 INFO     <MultiDictProxy('timestamp': '1581027075', 'username': 'admin', 'hmac': '981f572636f8f37295cb9dd5663a18939f5eb033', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-06 19:11:50,551 INFO     br_v1
+2020-02-06 19:11:50,551 INFO     <MultiDictProxy('timestamp': '1581027110', 'username': 'admin', 'hmac': '933a1f45a9bf6f5ee1cc16748364abbd9c90d696', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-06 19:11:53,557 INFO     br_v1
+2020-02-06 19:11:53,558 INFO     <MultiDictProxy('timestamp': '1581027113', 'username': 'admin', 'hmac': 'f8792c7dccac5a56d3c76e9d342f4f544670c4c6', 'params': '{"method":"hospedes.rpc_query","query":"680"}')>
+2020-02-06 19:12:00,982 INFO     br_v1
+2020-02-06 19:12:00,982 INFO     <MultiDictProxy('timestamp': '1581027120', 'username': 'admin', 'hmac': '0be2426966a30b726e7629f65e027f912b01c7d3', 'params': '{"method":"hospedes.rpc_query","query":"ayane"}')>
+2020-02-06 19:12:04,852 INFO     br_v1
+2020-02-06 19:12:04,852 INFO     <MultiDictProxy('timestamp': '1581027124', 'username': 'admin', 'hmac': 'd70bc54465a5f3373b0ec841a1f1904185864a18', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-06 19:12:12,053 INFO     br_v1
+2020-02-06 19:12:12,053 INFO     <MultiDictProxy('timestamp': '1581027132', 'username': 'admin', 'hmac': '24dea76a11339fe75110f0493ba23be698f8041b', 'params': '{"method":"hospedes.rpc_query","query":"porto"}')>
+2020-02-06 19:12:15,173 INFO     br_v1
+2020-02-06 19:12:15,173 INFO     <MultiDictProxy('timestamp': '1581027135', 'username': 'admin', 'hmac': 'f0319b82d19c41c13fb3d13e6af8a57021816e12', 'params': '{"method":"hospedes.rpc_query","query":"portinho"}')>
+2020-02-06 19:12:19,077 INFO     br_v1
+2020-02-06 19:12:19,078 INFO     <MultiDictProxy('timestamp': '1581027139', 'username': 'admin', 'hmac': '5be631d3bea20559e3d4841d098639b7913f93a7', 'params': '{"method":"hospedes.rpc_query","query":"diego"}')>
+2020-02-06 20:06:31,901 INFO     br_v1
+2020-02-06 20:06:31,901 INFO     <MultiDictProxy('timestamp': '1581030391', 'username': 'admin', 'hmac': 'dd2ca0b889071928d766f4e9644fcff29abf16cb', 'params': '{"method":"hospedes.rpc_query","query":"alb"}')>
+2020-02-07 03:05:25,023 INFO     Starting http server
+2020-02-07 03:05:55,853 INFO     br_v1
+2020-02-07 03:05:55,854 INFO     <MultiDictProxy('timestamp': '1581055555', 'username': 'admin', 'hmac': '49cf81778d37e7c92bc11fdb50753a25a5e8892b', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:06:21,117 INFO     br_v1
+2020-02-07 03:06:21,118 INFO     <MultiDictProxy('timestamp': '1581055581', 'username': 'admin', 'hmac': 'a3bc4dfa6065f52e7518a712e6cac4076a96e426', 'params': '{"method":"hospedes.rpc_query","query":"rome"}')>
+2020-02-07 03:06:25,357 INFO     br_v1
+2020-02-07 03:06:25,357 INFO     <MultiDictProxy('timestamp': '1581055585', 'username': 'admin', 'hmac': '99ffffb5b123ca7badd7f689c5127ab08b68298a', 'params': '{"method":"hospedes.rpc_query","query":"rom"}')>
+2020-02-07 03:06:28,268 INFO     br_v1
+2020-02-07 03:06:28,268 INFO     <MultiDictProxy('timestamp': '1581055588', 'username': 'admin', 'hmac': 'd7b1412017d9cb385101f5eefb90d3e5b22a6d0e', 'params': '{"method":"hospedes.rpc_query","query":"ro"}')>
+2020-02-07 03:06:46,588 INFO     br_v1
+2020-02-07 03:06:46,589 INFO     <MultiDictProxy('timestamp': '1581055606', 'username': 'admin', 'hmac': '4a7a4bc04c6bc34a51dccd2ee597f86e4320dba2', 'params': '{"method":"hospedes.rpc_query","query":"rom"}')>
+2020-02-07 03:06:49,083 INFO     br_v1
+2020-02-07 03:06:49,083 INFO     <MultiDictProxy('timestamp': '1581055609', 'username': 'admin', 'hmac': '5f4eefb5146975f490a0f2da9048b5b75d068c47', 'params': '{"method":"hospedes.rpc_query","query":"ro"}')>
+2020-02-07 03:06:56,604 INFO     br_v1
+2020-02-07 03:06:56,604 INFO     <MultiDictProxy('timestamp': '1581055616', 'username': 'admin', 'hmac': 'd67fe7ac543ff04ca39cdaf8806e9ccb4ac67d16', 'params': '{"method":"hospedes.rpc_query","query":"vieira neres"}')>
+2020-02-07 03:06:58,730 INFO     br_v1
+2020-02-07 03:06:58,730 INFO     <MultiDictProxy('timestamp': '1581055618', 'username': 'admin', 'hmac': '5a73a33e8eae2954202705bf08cbefb77c169dc9', 'params': '{"method":"hospedes.rpc_query","query":"vieira"}')>
+2020-02-07 03:07:03,290 INFO     br_v1
+2020-02-07 03:07:03,291 INFO     <MultiDictProxy('timestamp': '1581055623', 'username': 'admin', 'hmac': '34cc7340d45e23fae6ebfaa711731aff9cfac0ae', 'params': '{"method":"hospedes.rpc_query","query":"muniz"}')>
+2020-02-07 03:07:05,084 INFO     br_v1
+2020-02-07 03:07:05,084 INFO     <MultiDictProxy('timestamp': '1581055625', 'username': 'admin', 'hmac': '5e5ccbb06a9d0ea6b487dac2818af2a9cf6cc4ee', 'params': '{"method":"hospedes.rpc_query","query":"muni"}')>
+2020-02-07 03:07:07,292 INFO     br_v1
+2020-02-07 03:07:07,292 INFO     <MultiDictProxy('timestamp': '1581055627', 'username': 'admin', 'hmac': 'fa40494bc0f3da44045fcc588649386dacc25b13', 'params': '{"method":"hospedes.rpc_query","query":"mun"}')>
+2020-02-07 03:07:08,684 INFO     br_v1
+2020-02-07 03:07:08,684 INFO     <MultiDictProxy('timestamp': '1581055628', 'username': 'admin', 'hmac': 'b94d8441793ecccaef138f3debaa6078535ddf4d', 'params': '{"method":"hospedes.rpc_query","query":"mu"}')>
+2020-02-07 03:07:13,243 INFO     br_v1
+2020-02-07 03:07:13,243 INFO     <MultiDictProxy('timestamp': '1581055633', 'username': 'admin', 'hmac': 'f614ae37a9f0b538b0ea046a3f3d5d251f0b8a28', 'params': '{"method":"hospedes.rpc_query","query":"camila"}')>
+2020-02-07 03:07:16,986 INFO     br_v1
+2020-02-07 03:07:16,987 INFO     <MultiDictProxy('timestamp': '1581055636', 'username': 'admin', 'hmac': 'e10b1c4d47fedef5d53d246132763421c1edaf37', 'params': '{"method":"hospedes.rpc_query","query":"mayara"}')>
+2020-02-07 03:07:26,186 INFO     br_v1
+2020-02-07 03:07:26,186 INFO     <MultiDictProxy('timestamp': '1581055646', 'username': 'admin', 'hmac': 'd27c2fa057dbf90d805b44d351f8f3e08193dc27', 'params': '{"method":"hospedes.rpc_query","query":"roberta"}')>
+2020-02-07 03:07:35,433 INFO     br_v1
+2020-02-07 03:07:35,434 INFO     <MultiDictProxy('timestamp': '1581055655', 'username': 'admin', 'hmac': '43ee3a8debf532ff072edc3d9abaa43395baf355', 'params': '{"method":"hospedes.rpc_query","query":"andressa"}')>
+2020-02-07 03:07:38,522 INFO     br_v1
+2020-02-07 03:07:38,522 INFO     <MultiDictProxy('timestamp': '1581055658', 'username': 'admin', 'hmac': '9ff7a9c5f0ea10c5bc22f11c75c09113aad3ea95', 'params': '{"method":"hospedes.rpc_query","query":"ay"}')>
+2020-02-07 03:09:59,849 INFO     br_v1
+2020-02-07 03:09:59,849 INFO     <MultiDictProxy('timestamp': '1581055799', 'username': 'admin', 'hmac': '4f0aa1053192b2b99de624bdd4fc7d20d6c64c1e', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:16:29,474 INFO     br_v1
+2020-02-07 03:16:29,474 INFO     <MultiDictProxy('timestamp': '1581056189', 'username': 'admin', 'hmac': '6085d460adbf62d8007b2d17bb3078c887f26720', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:18:35,200 INFO     br_v1
+2020-02-07 03:18:35,200 INFO     <MultiDictProxy('timestamp': '1581056315', 'username': 'admin', 'hmac': '6b569cca474fe29d0000787db4e0b5756fc055eb', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:20:17,102 INFO     br_v1
+2020-02-07 03:20:17,103 INFO     <MultiDictProxy('timestamp': '1581056417', 'username': 'admin', 'hmac': '774799eff04e2f10fa1283727fd4390a022d8057', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:20:40,509 INFO     br_v1
+2020-02-07 03:20:40,510 INFO     <MultiDictProxy('timestamp': '1581056440', 'username': 'admin', 'hmac': 'e562110fd4e969241e481c4867107e93de7ffe37', 'params': '{"method":"hospedes.rpc_query","query":"patricia"}')>
+2020-02-07 03:20:49,980 INFO     br_v1
+2020-02-07 03:20:49,980 INFO     <MultiDictProxy('timestamp': '1581056449', 'username': 'admin', 'hmac': 'ca4a55298b374187f82aa7437ee218796935cf25', 'params': '{"method":"hospedes.rpc_query","query":"patricia"}')>
+2020-02-07 03:21:16,444 INFO     br_v1
+2020-02-07 03:21:16,445 INFO     <MultiDictProxy('timestamp': '1581056476', 'username': 'admin', 'hmac': 'd60193478feda5238694f3c0ad6dff6bf79a77b0', 'params': '{"method":"hospedes.rpc_query","query":"patricia"}')>
+2020-02-07 03:22:38,462 INFO     br_v1
+2020-02-07 03:22:38,462 INFO     <MultiDictProxy('timestamp': '1581056558', 'username': 'admin', 'hmac': 'bd9ac5623b788a6d9c68be37714ddbfcb56b4fd2', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:24:05,131 INFO     br_v1
+2020-02-07 03:24:05,131 INFO     <MultiDictProxy('timestamp': '1581056645', 'username': 'admin', 'hmac': '917e5c52f649401b296a5400ceb94d83b10fc1ee', 'params': '{"method":"hospedes.rpc_query","query":"patricia"}')>
+2020-02-07 03:24:15,643 INFO     br_v1
+2020-02-07 03:24:15,643 INFO     <MultiDictProxy('timestamp': '1581056655', 'username': 'admin', 'hmac': '01355039ade03d52a6bf6afce533977c93c938ef', 'params': '{"method":"hospedes.rpc_query","query":"patricia"}')>
+2020-02-07 03:24:27,851 INFO     br_v1
+2020-02-07 03:24:27,851 INFO     <MultiDictProxy('timestamp': '1581056667', 'username': 'admin', 'hmac': '68f5d7a0a74677e8bab26a975a42503a75ef710c', 'params': '{"method":"hospedes.rpc_query","query":"erli"}')>
+2020-02-07 03:24:29,833 INFO     br_v1
+2020-02-07 03:24:29,833 INFO     <MultiDictProxy('timestamp': '1581056669', 'username': 'admin', 'hmac': 'a649e605271d3b4478a78cdd79b5c65be871d8a9', 'params': '{"method":"hospedes.rpc_query","query":"erl"}')>
+2020-02-07 03:24:33,801 INFO     br_v1
+2020-02-07 03:24:33,801 INFO     <MultiDictProxy('timestamp': '1581056673', 'username': 'admin', 'hmac': 'cb37c235664c80d081863929775c555c6dffe5a9', 'params': '{"method":"hospedes.rpc_query","query":"natalia"}')>
+2020-02-07 03:24:41,832 INFO     br_v1
+2020-02-07 03:24:41,833 INFO     <MultiDictProxy('timestamp': '1581056681', 'username': 'admin', 'hmac': '761ce1a4f99632919dd00b53f95827959246e702', 'params': '{"method":"hospedes.rpc_query","query":"rub"}')>
+2020-02-07 03:26:27,496 INFO     br_v1
+2020-02-07 03:26:27,496 INFO     <MultiDictProxy('timestamp': '1581056787', 'username': 'admin', 'hmac': '70f8368c7cbde8153beaf04681351a5e5e2e76a6', 'params': '{"method":"hospedes.rpc_query","query":"baal"}')>
+2020-02-07 03:28:17,639 INFO     br_v1
+2020-02-07 03:28:17,639 INFO     <MultiDictProxy('timestamp': '1581056897', 'username': 'admin', 'hmac': 'ef5d7091834a87feb436768681430785c92a322f', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:29:00,516 INFO     br_v1
+2020-02-07 03:29:00,516 INFO     <MultiDictProxy('timestamp': '1581056940', 'username': 'admin', 'hmac': '09e13aff8045538cb792cb0dfcd74526218cfcc1', 'params': '{"method":"hospedes.rpc_query","query":"patricia"}')>
+2020-02-07 03:29:29,654 INFO     br_v1
+2020-02-07 03:29:29,654 INFO     <MultiDictProxy('timestamp': '1581056969', 'username': 'admin', 'hmac': '8388caedc3f68e2e6428ed80c865536b90cdae51', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:33:02,161 INFO     br_v1
+2020-02-07 03:33:02,162 INFO     <MultiDictProxy('timestamp': '1581057182', 'username': 'admin', 'hmac': 'c6a58053e7c71c79247660140a11e8097a5c2a66', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:33:46,817 INFO     br_v1
+2020-02-07 03:33:46,817 INFO     <MultiDictProxy('timestamp': '1581057226', 'username': 'admin', 'hmac': 'a658b578d3ec9b360d27435e712fd7f289a0a030', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:34:19,664 INFO     br_v1
+2020-02-07 03:34:19,665 INFO     <MultiDictProxy('timestamp': '1581057259', 'username': 'admin', 'hmac': 'c09429845f310efa07977d697d607ac27f3a0d95', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:34:50,432 INFO     br_v1
+2020-02-07 03:34:50,432 INFO     <MultiDictProxy('timestamp': '1581057290', 'username': 'admin', 'hmac': '42a0895cb59ca049ed305eb55609be41dd933b59', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:35:17,649 INFO     br_v1
+2020-02-07 03:35:17,649 INFO     <MultiDictProxy('timestamp': '1581057317', 'username': 'admin', 'hmac': 'f248c3e804561d13094bde1b7c94e3b10a0dbed2', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:35:42,240 INFO     br_v1
+2020-02-07 03:35:42,240 INFO     <MultiDictProxy('timestamp': '1581057342', 'username': 'admin', 'hmac': '409a5a374a69823f5cdd23401db47a694f1119b9', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:36:11,966 INFO     br_v1
+2020-02-07 03:36:11,967 INFO     <MultiDictProxy('timestamp': '1581057371', 'username': 'admin', 'hmac': '970e81f3bd51dc4ddfffe126bac3b71956522cdb', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:36:42,190 INFO     br_v1
+2020-02-07 03:36:42,190 INFO     <MultiDictProxy('timestamp': '1581057402', 'username': 'admin', 'hmac': 'c4b9594235bb566801c11c56d9e80951c7c0ec48', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:37:12,621 INFO     br_v1
+2020-02-07 03:37:12,622 INFO     <MultiDictProxy('timestamp': '1581057432', 'username': 'admin', 'hmac': '4cfb68eaafe6cb18b5ef9170852cdda910a235c0', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:37:34,573 INFO     br_v1
+2020-02-07 03:37:34,573 INFO     <MultiDictProxy('timestamp': '1581057454', 'username': 'admin', 'hmac': '3bf6379f86ba59dcb7ca9831f2b4e96072af1fc3', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:39:44,507 INFO     br_v1
+2020-02-07 03:39:44,507 INFO     <MultiDictProxy('timestamp': '1581057584', 'username': 'admin', 'hmac': '32e37cff33bfc645b68dc3f6d2f94cb2c13ceab4', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:45:28,805 INFO     br_v1
+2020-02-07 03:45:28,805 INFO     <MultiDictProxy('timestamp': '1581057928', 'username': 'admin', 'hmac': 'a908c672c3f36842a8543ef22826ab5def4d9815', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:46:04,564 INFO     br_v1
+2020-02-07 03:46:04,564 INFO     <MultiDictProxy('timestamp': '1581057964', 'username': 'admin', 'hmac': '2a598277d411805de06a828f79a3e933f0e62607', 'params': '{"method":"hospedes.rpc_query","query":"roberto"}')>
+2020-02-07 03:47:55,986 INFO     br_v1
+2020-02-07 03:47:55,987 INFO     <MultiDictProxy('timestamp': '1581058075', 'username': 'admin', 'hmac': 'ea22fc7c331044e2db9cb04690feb32c9bb0cd29', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:51:35,055 INFO     br_v1
+2020-02-07 03:51:35,055 INFO     <MultiDictProxy('timestamp': '1581058295', 'username': 'admin', 'hmac': '11feeb291e01753cdd9ac1957472edacd2f466a0', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:51:37,358 INFO     br_v1
+2020-02-07 03:51:37,358 INFO     <MultiDictProxy('timestamp': '1581058297', 'username': 'admin', 'hmac': 'b49647d94d43aedd354269017b239de839b71d7f', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:52:05,134 INFO     br_v1
+2020-02-07 03:52:05,134 INFO     <MultiDictProxy('timestamp': '1581058325', 'username': 'admin', 'hmac': 'c465e149e30875aa45d862b029f6acd34e244c12', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:52:22,253 INFO     br_v1
+2020-02-07 03:52:22,253 INFO     <MultiDictProxy('timestamp': '1581058342', 'username': 'admin', 'hmac': 'ddee79af1dd53c7c0b69f21c2ab5efb2c819b887', 'params': '{"method":"hospedes.rpc_query","query":"patricia"}')>
+2020-02-07 03:52:37,166 INFO     br_v1
+2020-02-07 03:52:37,166 INFO     <MultiDictProxy('timestamp': '1581058357', 'username': 'admin', 'hmac': 'aa09f31560cb7e23383893157adf18a644de2781', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:52:41,165 INFO     br_v1
+2020-02-07 03:52:41,166 INFO     <MultiDictProxy('timestamp': '1581058361', 'username': 'admin', 'hmac': '5804ee153c71ed29eaa49e3e7ed25ddb99eb9e5d', 'params': '{"method":"hospedes.rpc_query","query":"patricia"}')>
+2020-02-07 03:53:10,333 INFO     br_v1
+2020-02-07 03:53:10,334 INFO     <MultiDictProxy('timestamp': '1581058390', 'username': 'admin', 'hmac': 'd811cd89ba3adc13835c09f17f06381c99e0b0ba', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:53:13,515 INFO     br_v1
+2020-02-07 03:53:13,516 INFO     <MultiDictProxy('timestamp': '1581058393', 'username': 'admin', 'hmac': '2aedae206ad1c0415f894fe57878e3ee6229081c', 'params': '{"method":"hospedes.rpc_query","query":"ricard"}')>
+2020-02-07 03:55:39,003 INFO     br_v1
+2020-02-07 03:55:39,003 INFO     <MultiDictProxy('timestamp': '1581058538', 'username': 'admin', 'hmac': '09b0398b2edbf366b341906dcd2bf310cb173f11', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:58:46,807 INFO     br_v1
+2020-02-07 03:58:46,808 INFO     <MultiDictProxy('timestamp': '1581058726', 'username': 'admin', 'hmac': 'a30273551b79fc3e9a409839b4de4b00a0d1f174', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 03:58:50,518 INFO     br_v1
+2020-02-07 03:58:50,518 INFO     <MultiDictProxy('timestamp': '1581058730', 'username': 'admin', 'hmac': 'f9b5fd532ff21ed7790265766b0fb4b9a1cc4e9f', 'params': '{"method":"hospedes.rpc_query","query":"patricia"}')>
+2020-02-07 03:59:19,334 INFO     br_v1
+2020-02-07 03:59:19,335 INFO     <MultiDictProxy('timestamp': '1581058759', 'username': 'admin', 'hmac': 'e00f7d40edfbe37c93bda4af9b2a60f476a638f0', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 04:01:28,164 INFO     br_v1
+2020-02-07 04:01:28,165 INFO     <MultiDictProxy('timestamp': '1581058888', 'username': 'admin', 'hmac': 'c33598dc0f1013bf0805a6fab462095658ac27c0', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 04:01:32,003 INFO     br_v1
+2020-02-07 04:01:32,003 INFO     <MultiDictProxy('timestamp': '1581058892', 'username': 'admin', 'hmac': '8d87bacfc24ae706b28329a27dcf8d5933bcbc5f', 'params': '{"method":"hospedes.rpc_query","query":"patricia"}')>
+2020-02-07 04:05:17,808 INFO     br_v1
+2020-02-07 04:05:17,809 INFO     <MultiDictProxy('timestamp': '1581059117', 'username': 'admin', 'hmac': '43f39d19e2f6f90524478da9746481a9a3436248', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 04:05:21,695 INFO     br_v1
+2020-02-07 04:05:21,695 INFO     <MultiDictProxy('timestamp': '1581059121', 'username': 'admin', 'hmac': '84d7d0bdcfe963e7093f34174974d30510251a47', 'params': '{"method":"hospedes.rpc_query","query":"patricia"}')>
+2020-02-07 04:05:25,201 INFO     br_v1
+2020-02-07 04:05:25,202 INFO     <MultiDictProxy('timestamp': '1581059125', 'username': 'admin', 'hmac': '5128fcb39ecaa040b71485d074ee4a0f077e57f8', 'params': '{"method":"hospedes.rpc_query","query":"patricia"}')>
+2020-02-07 04:05:26,527 INFO     br_v1
+2020-02-07 04:05:26,527 INFO     <MultiDictProxy('timestamp': '1581059126', 'username': 'admin', 'hmac': 'fb3ec083fe62cd14b62eee86d81d853f0ee8121e', 'params': '{"method":"hospedes.rpc_query","query":"patricia"}')>
+2020-02-07 04:05:27,233 INFO     br_v1
+2020-02-07 04:05:27,233 INFO     <MultiDictProxy('timestamp': '1581059127', 'username': 'admin', 'hmac': '8eab923fba611565b6c7e5b778e7361e1bd40f6b', 'params': '{"method":"hospedes.rpc_query","query":"patricia"}')>
+2020-02-07 04:05:27,727 INFO     br_v1
+2020-02-07 04:05:27,728 INFO     <MultiDictProxy('timestamp': '1581059127', 'username': 'admin', 'hmac': '8eab923fba611565b6c7e5b778e7361e1bd40f6b', 'params': '{"method":"hospedes.rpc_query","query":"patricia"}')>
+2020-02-07 04:05:28,207 INFO     br_v1
+2020-02-07 04:05:28,207 INFO     <MultiDictProxy('timestamp': '1581059128', 'username': 'admin', 'hmac': 'a132974bb953ec2fed250b62cb440db836457345', 'params': '{"method":"hospedes.rpc_query","query":"patricia"}')>
+2020-02-07 04:05:28,671 INFO     br_v1
+2020-02-07 04:05:28,671 INFO     <MultiDictProxy('timestamp': '1581059128', 'username': 'admin', 'hmac': 'a132974bb953ec2fed250b62cb440db836457345', 'params': '{"method":"hospedes.rpc_query","query":"patricia"}')>
+2020-02-07 04:05:31,569 INFO     br_v1
+2020-02-07 04:05:31,569 INFO     <MultiDictProxy('timestamp': '1581059131', 'username': 'admin', 'hmac': '7d5a072d4a0b5633ed9eceea3a3f5d61e77f20d4', 'params': '{"method":"hospedes.rpc_query","query":"roberto"}')>
+2020-02-07 04:07:06,670 INFO     br_v1
+2020-02-07 04:07:06,670 INFO     <MultiDictProxy('timestamp': '1581059226', 'username': 'admin', 'hmac': '7123b8e8eecaba3e86fb2dd42e9e8e6f887837c1', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 04:07:16,894 INFO     br_v1
+2020-02-07 04:07:16,895 INFO     <MultiDictProxy('timestamp': '1581059236', 'username': 'admin', 'hmac': 'e6dc1b83f9315cb428b8c0c3875fce3db375ab11', 'params': '{"method":"hospedes.rpc_query","query":"patricia"}')>
+2020-02-07 04:08:01,565 INFO     br_v1
+2020-02-07 04:08:01,566 INFO     <MultiDictProxy('timestamp': '1581059281', 'username': 'admin', 'hmac': '41f0a28fe226b77c3638b88395e796a6b8bb8031', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 04:13:43,160 INFO     br_v1
+2020-02-07 04:13:43,160 INFO     <MultiDictProxy('timestamp': '1581059623', 'username': 'admin', 'hmac': '98583a80ddf19fb40ce170ce0c67e2f8518eb724', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 04:14:25,239 INFO     br_v1
+2020-02-07 04:14:25,239 INFO     <MultiDictProxy('timestamp': '1581059665', 'username': 'admin', 'hmac': '869370dd85205b9da71df849ef6c7a32ff0a5db6', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 04:14:29,142 INFO     br_v1
+2020-02-07 04:14:29,142 INFO     <MultiDictProxy('timestamp': '1581059669', 'username': 'admin', 'hmac': '1adfa3d498f01044d69c4c2a2a39775e75530bdf', 'params': '{"method":"hospedes.rpc_query","query":"rob"}')>
+2020-02-07 04:17:10,469 INFO     br_v1
+2020-02-07 04:17:10,469 INFO     <MultiDictProxy('timestamp': '1581059830', 'username': 'admin', 'hmac': 'e0830a2d3d6331f6fbcda5b3bdeb360164c4b25d', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 04:17:14,146 INFO     br_v1
+2020-02-07 04:17:14,147 INFO     <MultiDictProxy('timestamp': '1581059834', 'username': 'admin', 'hmac': '7d278f5854991309553854011043971e4ac537c3', 'params': '{"method":"hospedes.rpc_query","query":"patricia"}')>
+2020-02-07 04:24:02,766 INFO     br_v1
+2020-02-07 04:24:02,766 INFO     <MultiDictProxy('timestamp': '1581060242', 'username': 'admin', 'hmac': 'a4b44985dccc91e42d6f47c7692a84335c5127d1', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 04:24:12,925 INFO     br_v1
+2020-02-07 04:24:12,926 INFO     <MultiDictProxy('timestamp': '1581060252', 'username': 'admin', 'hmac': 'd8726a0de4526fc782df34d2313babb2d7a3de73', 'params': '{"method":"hospedes.rpc_query","query":"patricia"}')>
+2020-02-07 04:24:56,572 INFO     br_v1
+2020-02-07 04:24:56,572 INFO     <MultiDictProxy('timestamp': '1581060296', 'username': 'admin', 'hmac': '66d8f4a661b3b285a5faf9cc1e67615844958894', 'params': '{"method":"hospedes.rpc_query","query":"Ricardo"}')>
+2020-02-07 04:27:55,962 INFO     br_v1
+2020-02-07 04:27:55,962 INFO     <MultiDictProxy('timestamp': '1581060475', 'username': 'admin', 'hmac': '6bfebce957d96cc326e3162ea4319fa768966dfa', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 04:28:05,465 INFO     br_v1
+2020-02-07 04:28:05,465 INFO     <MultiDictProxy('timestamp': '1581060485', 'username': 'admin', 'hmac': '799daf3072a2cf2e4354f8eacdd8b43fa198f71e', 'params': '{"method":"hospedes.rpc_query","query":"patricia"}')>
+2020-02-07 04:29:09,416 INFO     br_v1
+2020-02-07 04:29:09,416 INFO     <MultiDictProxy('timestamp': '1581060549', 'username': 'admin', 'hmac': 'cb6e063150dbd02e067914c11cc2c6b0ca3886d4', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 04:29:29,384 INFO     br_v1
+2020-02-07 04:29:29,384 INFO     <MultiDictProxy('timestamp': '1581060569', 'username': 'admin', 'hmac': '64e0412f563dce06d7cd0f8a9907df809d33e25d', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 05:47:11,287 INFO     Starting http server
+2020-02-07 05:47:28,410 INFO     br_v1
+2020-02-07 05:47:28,411 INFO     <MultiDictProxy('timestamp': '1581065248', 'username': 'admin', 'hmac': '30b814ad347e566f8cfdda78c4e9d50cab476bcd', 'params': '{"method":"hospedes.rpc_query","query":"dfg"}')>
+2020-02-07 05:49:14,215 INFO     br_v1
+2020-02-07 05:49:14,215 INFO     <MultiDictProxy('timestamp': '1581065354', 'username': 'admin', 'hmac': 'bb429c2055cbc3e44702f0eaee5a46c72f724ef0', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 05:49:19,030 INFO     br_v1
+2020-02-07 05:49:19,031 INFO     <MultiDictProxy('timestamp': '1581065359', 'username': 'admin', 'hmac': '85d0e33a2df414e1eb0d732562cee3deff656b0d', 'params': '{"method":"hospedes.rpc_query","query":"patricia"}')>
+2020-02-07 05:51:00,629 INFO     br_v1
+2020-02-07 05:51:00,629 INFO     <MultiDictProxy('timestamp': '1581065460', 'username': 'admin', 'hmac': 'b9966b81fe93875311e2928d49033597383ab047', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 05:52:44,195 INFO     br_v1
+2020-02-07 05:52:44,196 INFO     <MultiDictProxy('timestamp': '1581065564', 'username': 'admin', 'hmac': '7fb32e736a1279b3bd311954df6e8cedccc9d51e', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2020-02-07 05:52:48,146 INFO     br_v1
+2020-02-07 05:52:48,146 INFO     <MultiDictProxy('timestamp': '1581065568', 'username': 'admin', 'hmac': 'e8d83b457ffe38a5fcb76751a66c6e9482973d5f', 'params': '{"method":"hospedes.rpc_query","query":"pat"}')>
+2020-02-07 06:02:01,674 INFO     br_v1
+2020-02-07 06:02:01,674 INFO     <MultiDictProxy('timestamp': '1581066121', 'username': 'admin', 'hmac': '44ce6d708d7a013ad4ec5600976d07bb6cd587ef', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 06:02:04,344 INFO     br_v1
+2020-02-07 06:02:04,345 INFO     <MultiDictProxy('timestamp': '1581066124', 'username': 'admin', 'hmac': '024e99f6da188aed1cc8cc0a4e54e8e8aa9e095f', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 06:03:39,336 INFO     br_v1
+2020-02-07 06:03:39,336 INFO     <MultiDictProxy('timestamp': '1581066219', 'username': 'admin', 'hmac': '49e3b57eba222e9f494b0f1be9b28cba280c6fa0', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 06:03:42,215 INFO     br_v1
+2020-02-07 06:03:42,215 INFO     <MultiDictProxy('timestamp': '1581066222', 'username': 'admin', 'hmac': '846aa287ca7eef36b6afd49fc7b94cca7ac6b524', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 06:03:47,784 INFO     br_v1
+2020-02-07 06:03:47,784 INFO     <MultiDictProxy('timestamp': '1581066227', 'username': 'admin', 'hmac': '16969d4e1a2b1e1c5439cf605f053c946477ba68', 'params': '{"method":"hospedes.rpc_query","query":"patricia"}')>
+2020-02-07 06:05:38,918 INFO     br_v1
+2020-02-07 06:05:38,918 INFO     <MultiDictProxy('timestamp': '1581066338', 'username': 'admin', 'hmac': '3f49d9f078ce17ae8c5aec2f93aa3af97fec4519', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 06:05:41,396 INFO     br_v1
+2020-02-07 06:05:41,397 INFO     <MultiDictProxy('timestamp': '1581066341', 'username': 'admin', 'hmac': 'bac02c6e57b387e886c79c8f7114558e77a36d48', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 06:05:41,956 INFO     br_v1
+2020-02-07 06:05:41,957 INFO     <MultiDictProxy('timestamp': '1581066341', 'username': 'admin', 'hmac': 'bac02c6e57b387e886c79c8f7114558e77a36d48', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 06:05:42,149 INFO     br_v1
+2020-02-07 06:05:42,149 INFO     <MultiDictProxy('timestamp': '1581066342', 'username': 'admin', 'hmac': '9a3a4375139c0f82a763ec6bff3b47b3a700e08a', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 06:05:42,326 INFO     br_v1
+2020-02-07 06:05:42,326 INFO     <MultiDictProxy('timestamp': '1581066342', 'username': 'admin', 'hmac': '9a3a4375139c0f82a763ec6bff3b47b3a700e08a', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 06:05:42,485 INFO     br_v1
+2020-02-07 06:05:42,485 INFO     <MultiDictProxy('timestamp': '1581066342', 'username': 'admin', 'hmac': '9a3a4375139c0f82a763ec6bff3b47b3a700e08a', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 06:05:42,644 INFO     br_v1
+2020-02-07 06:05:42,644 INFO     <MultiDictProxy('timestamp': '1581066342', 'username': 'admin', 'hmac': '9a3a4375139c0f82a763ec6bff3b47b3a700e08a', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 06:05:50,229 INFO     br_v1
+2020-02-07 06:05:50,229 INFO     <MultiDictProxy('timestamp': '1581066350', 'username': 'admin', 'hmac': 'e1111ae68f3da1ffe606b983eafabf10102f2dfd', 'params': '{"method":"hospedes.rpc_query","query":"patricia"}')>
+2020-02-07 06:08:50,403 INFO     br_v1
+2020-02-07 06:08:50,403 INFO     <MultiDictProxy('timestamp': '1581066530', 'username': 'admin', 'hmac': 'fc61bfdfcd43f13eda550e08285bc3e607a205f2', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 06:11:21,152 INFO     br_v1
+2020-02-07 06:11:21,152 INFO     <MultiDictProxy('timestamp': '1581066681', 'username': 'admin', 'hmac': '51f838c6a97667a4bcc25415df6e9c93fe53eeb7', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 06:11:25,585 INFO     br_v1
+2020-02-07 06:11:25,585 INFO     <MultiDictProxy('timestamp': '1581066685', 'username': 'admin', 'hmac': '8e4f6aaa846859b8ca79a67e69d7e840cf37ea8f', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 06:11:26,304 INFO     br_v1
+2020-02-07 06:11:26,304 INFO     <MultiDictProxy('timestamp': '1581066686', 'username': 'admin', 'hmac': 'e4198aa6a21854a2bb353a5adfa2a93ae6e80bdf', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 06:11:29,439 INFO     br_v1
+2020-02-07 06:11:29,439 INFO     <MultiDictProxy('timestamp': '1581066689', 'username': 'admin', 'hmac': '7db3c4e905dbb10a4cfce9bb66bfbf3e98983111', 'params': '{"method":"hospedes.rpc_query","query":"pat"}')>
+2020-02-07 06:11:42,641 INFO     br_v1
+2020-02-07 06:11:42,641 INFO     <MultiDictProxy('timestamp': '1581066702', 'username': 'admin', 'hmac': 'e2318004c1d4f42d51e2e46ba12124bac14456c3', 'params': '{"method":"hospedes.rpc_query","query":"pat"}')>
+2020-02-07 06:11:55,695 INFO     br_v1
+2020-02-07 06:11:55,695 INFO     <MultiDictProxy('timestamp': '1581066715', 'username': 'admin', 'hmac': '48ad893b5b732ab6b606011c988c0a747e0d4539', 'params': '{"method":"hospedes.rpc_query","query":"fabiana"}')>
+2020-02-07 06:12:10,670 INFO     br_v1
+2020-02-07 06:12:10,671 INFO     <MultiDictProxy('timestamp': '1581066730', 'username': 'admin', 'hmac': 'bf39105679720e36b529d629475e9f87e30aaae9', 'params': '{"method":"hospedes.rpc_query","query":"fabiana borges"}')>
+2020-02-07 06:17:37,563 INFO     br_v1
+2020-02-07 06:17:37,563 INFO     <MultiDictProxy('timestamp': '1581067057', 'username': 'admin', 'hmac': 'e8a5fd81168d67304ba57960da76831c205e4e53', 'params': '{"method":"hospedes.rpc_query","query":"pat"}')>
+2020-02-07 06:19:15,065 INFO     br_v1
+2020-02-07 06:19:15,065 INFO     <MultiDictProxy('timestamp': '1581067155', 'username': 'admin', 'hmac': '4fd19ee00e231fa766673e4e75d16f8bcc254ff0', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 06:19:36,920 INFO     br_v1
+2020-02-07 06:19:36,920 INFO     <MultiDictProxy('timestamp': '1581067176', 'username': 'admin', 'hmac': '643f7d660b68cb2f676db8cb1444a7fc64f32003', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 06:21:37,831 INFO     br_v1
+2020-02-07 06:21:37,831 INFO     <MultiDictProxy('timestamp': '1581067297', 'username': 'admin', 'hmac': 'e1d1388092b9c5c97ce0aa85938a974e955731c0', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 06:32:24,011 INFO     br_v1
+2020-02-07 06:32:24,012 INFO     <MultiDictProxy('timestamp': '1581067944', 'username': 'admin', 'hmac': 'dfa66806dd853efe6dd4f59904ba0f5ad6f441a1', 'params': '{"method":"hospedes.rpc_query","query":"rica"}')>
+2020-02-07 06:32:28,428 INFO     br_v1
+2020-02-07 06:32:28,428 INFO     <MultiDictProxy('timestamp': '1581067948', 'username': 'admin', 'hmac': '52c9e84699301df70bc45ce2a1587c3031657c64', 'params': '{"method":"hospedes.rpc_query","query":"ricar"}')>
+2020-02-07 06:34:08,041 INFO     br_v1
+2020-02-07 06:34:08,042 INFO     <MultiDictProxy('timestamp': '1581068048', 'username': 'admin', 'hmac': '1f65ba36d0eb3c09b577a2b73c5debfb1fd90610', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2020-02-07 06:36:24,855 INFO     br_v1
+2020-02-07 06:36:24,856 INFO     <MultiDictProxy('timestamp': '1581068184', 'username': 'admin', 'hmac': 'a27545ea23a5458fd8eae0a212e70244731f5881', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2020-02-07 06:38:16,485 INFO     br_v1
+2020-02-07 06:38:16,485 INFO     <MultiDictProxy('timestamp': '1581068296', 'username': 'admin', 'hmac': '1cd4e416a043548624c742ad2dfaa699e598eb12', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2020-02-07 06:38:49,509 INFO     br_v1
+2020-02-07 06:38:49,509 INFO     <MultiDictProxy('timestamp': '1581068329', 'username': 'admin', 'hmac': 'cc3654bdd113b97d148fc24bf7e280205af73def', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2020-02-07 06:38:53,795 INFO     br_v1
+2020-02-07 06:38:53,796 INFO     <MultiDictProxy('timestamp': '1581068333', 'username': 'admin', 'hmac': '9fd64874f0cb595de47733dbeb32e1d3158259c0', 'params': '{"method":"hospedes.rpc_query","query":"pat"}')>
+2020-02-07 06:40:21,795 INFO     br_v1
+2020-02-07 06:40:21,795 INFO     <MultiDictProxy('timestamp': '1581068421', 'username': 'admin', 'hmac': 'a8a8f9c95e02c1fde136d87d2b285b9475b85ca7', 'params': '{"method":"hospedes.rpc_query","query":"ri"}')>
+2020-02-07 06:40:23,730 INFO     br_v1
+2020-02-07 06:40:23,730 INFO     <MultiDictProxy('timestamp': '1581068423', 'username': 'admin', 'hmac': 'f990f9033588329df7c5456b2cb2076f7676845c', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2020-02-07 06:40:25,602 INFO     br_v1
+2020-02-07 06:40:25,602 INFO     <MultiDictProxy('timestamp': '1581068425', 'username': 'admin', 'hmac': '910174f84e7bf2f742dff0540be8158727230037', 'params': '{"method":"hospedes.rpc_query","query":"rica"}')>
+2020-02-07 17:06:26,399 INFO     Starting http server
+2020-02-07 17:09:12,300 INFO     br_v1
+2020-02-07 17:09:12,300 INFO     <MultiDictProxy('timestamp': '1581106152', 'username': 'admin', 'hmac': 'fb89d1e0709fbf09d80dd7c3ea2b18578931ab06', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 17:09:23,195 INFO     br_v1
+2020-02-07 17:09:23,195 INFO     <MultiDictProxy('timestamp': '1581106163', 'username': 'admin', 'hmac': '90679d729b6bcca25f811b5c014186d44eaca967', 'params': '{"method":"hospedes.rpc_query","query":"patricia"}')>
+2020-02-07 17:09:34,922 INFO     br_v1
+2020-02-07 17:09:34,922 INFO     <MultiDictProxy('timestamp': '1581106174', 'username': 'admin', 'hmac': '7e859e187e6673c1c696049490fb5f75614c929b', 'params': '{"method":"hospedes.rpc_query","query":"roberto"}')>
+2020-02-07 17:15:14,885 INFO     br_v1
+2020-02-07 17:15:14,886 INFO     <MultiDictProxy('timestamp': '1581106514', 'username': 'admin', 'hmac': 'f96a66248acedbd85edc0844098b74897f0ced3f', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 17:19:28,481 INFO     br_v1
+2020-02-07 17:19:28,481 INFO     <MultiDictProxy('timestamp': '1581106768', 'username': 'admin', 'hmac': 'ab0aac57dd84f02c57589d902082f55fc7bf9d93', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 17:21:24,704 INFO     br_v1
+2020-02-07 17:21:24,704 INFO     <MultiDictProxy('timestamp': '1581106884', 'username': 'admin', 'hmac': '50cad02c6ba8fd036acfb7306e910cfc30d4a635', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 17:22:24,800 INFO     br_v1
+2020-02-07 17:22:24,800 INFO     <MultiDictProxy('timestamp': '1581106944', 'username': 'admin', 'hmac': '9ea12c0c8a3dc1a424fcf10c35431ddf819cee9f', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 17:29:37,161 INFO     br_v1
+2020-02-07 17:29:37,161 INFO     <MultiDictProxy('timestamp': '1581107377', 'username': 'admin', 'hmac': 'bbf0ceb082955b38881ca9cd14cef7caeeb87144', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 17:30:14,823 INFO     br_v1
+2020-02-07 17:30:14,824 INFO     <MultiDictProxy('timestamp': '1581107414', 'username': 'admin', 'hmac': 'ed4343ddf5972c4d33bf1caada1549db22b3ab7c', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 17:51:17,555 INFO     br_v1
+2020-02-07 17:51:17,555 INFO     <MultiDictProxy('timestamp': '1581108677', 'username': 'admin', 'hmac': 'ee9e550c54fe31d93af55c74b2bb77d69df844b3', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 17:51:52,705 INFO     br_v1
+2020-02-07 17:51:52,705 INFO     <MultiDictProxy('timestamp': '1581108712', 'username': 'admin', 'hmac': 'cb8b444a661884e21175059c95ecdec293f5f946', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 17:52:48,784 INFO     br_v1
+2020-02-07 17:52:48,784 INFO     <MultiDictProxy('timestamp': '1581108768', 'username': 'admin', 'hmac': 'cdfc5817884f086a7a4fc4a4136538ff50b1f375', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 17:56:01,501 INFO     br_v1
+2020-02-07 17:56:01,501 INFO     <MultiDictProxy('timestamp': '1581108961', 'username': 'admin', 'hmac': '42f5d4219452ba8e6a768598436a77bcb68bae43', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2020-02-07 17:56:44,157 INFO     br_v1
+2020-02-07 17:56:44,157 INFO     <MultiDictProxy('timestamp': '1581109004', 'username': 'admin', 'hmac': '8eb859be114461ed327c6af8debfd4150d32f150', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2020-02-07 17:58:32,571 INFO     br_v1
+2020-02-07 17:58:32,571 INFO     <MultiDictProxy('timestamp': '1581109112', 'username': 'admin', 'hmac': '46b2245c3899b694e04629b31245a8cf4ee6b0e1', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 17:59:02,602 INFO     br_v1
+2020-02-07 17:59:02,603 INFO     <MultiDictProxy('timestamp': '1581109142', 'username': 'admin', 'hmac': '0f6caf92495e415212cf95fc9332abe01fdeeab6', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2020-02-07 18:00:07,833 INFO     br_v1
+2020-02-07 18:00:07,834 INFO     <MultiDictProxy('timestamp': '1581109207', 'username': 'admin', 'hmac': '79fc9c5ba38e9f92a5e5fa7b2525fc5537ab6cd8', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2020-02-07 18:00:27,353 INFO     br_v1
+2020-02-07 18:00:27,353 INFO     <MultiDictProxy('timestamp': '1581109227', 'username': 'admin', 'hmac': 'd5044bc44f1caf1180fcbbbc0d4e04d4cfc4e36d', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2020-02-07 18:00:55,417 INFO     br_v1
+2020-02-07 18:00:55,417 INFO     <MultiDictProxy('timestamp': '1581109255', 'username': 'admin', 'hmac': '210cb48bd63c9bfe5c5a246de498958b1aca9108', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2020-02-07 18:04:28,549 INFO     br_v1
+2020-02-07 18:04:28,549 INFO     <MultiDictProxy('timestamp': '1581109468', 'username': 'admin', 'hmac': '166c1a53ff3efb471d3044e4e59cfecd14b5a60a', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2020-02-07 18:04:44,292 INFO     br_v1
+2020-02-07 18:04:44,293 INFO     <MultiDictProxy('timestamp': '1581109484', 'username': 'admin', 'hmac': 'f8092dc4a3bf9ccb20e11e5d4575c572ad221d1e', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2020-02-07 18:05:34,180 INFO     br_v1
+2020-02-07 18:05:34,180 INFO     <MultiDictProxy('timestamp': '1581109534', 'username': 'admin', 'hmac': '83b28ccdffe2db57431c83fcb46a7093dd755fdc', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 18:06:26,738 INFO     br_v1
+2020-02-07 18:06:26,739 INFO     <MultiDictProxy('timestamp': '1581109586', 'username': 'admin', 'hmac': '095f008071205e8e1ddac8c1002cbef0f9bde415', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 18:07:20,531 INFO     br_v1
+2020-02-07 18:07:20,532 INFO     <MultiDictProxy('timestamp': '1581109640', 'username': 'admin', 'hmac': 'a5fb6595e7e0823c63047517424cda5bf9b7d99d', 'params': '{"method":"hospedes.rpc_query","query":"rica]"}')>
+2020-02-07 18:07:21,696 INFO     br_v1
+2020-02-07 18:07:21,696 INFO     <MultiDictProxy('timestamp': '1581109641', 'username': 'admin', 'hmac': '9039f1c4e144bc8e88d1ff3c11d3ef46d2767954', 'params': '{"method":"hospedes.rpc_query","query":"rica"}')>
+2020-02-07 18:15:55,065 INFO     br_v1
+2020-02-07 18:15:55,066 INFO     <MultiDictProxy('timestamp': '1581110155', 'username': 'admin', 'hmac': 'bf854838bfed3d5862986f838c0f5c7c83d69877', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 18:15:56,363 INFO     br_v1
+2020-02-07 18:15:56,363 INFO     <MultiDictProxy('timestamp': '1581110156', 'username': 'admin', 'hmac': 'c8bd276671fdbd22701b680b9b63e670e7c7195b', 'params': '{"method":"hospedes.rpc_get","uuid":"fcc0970b-12d0-41e2-81ef-6b7b98126760-1445547427.56-a45d362963ec"}')>
+2020-02-07 18:16:00,875 INFO     br_v1
+2020-02-07 18:16:00,876 INFO     <MultiDictProxy('timestamp': '1581110160', 'username': 'admin', 'hmac': '06f9d610acf9a2754cb17967044ca0ac3d09ab6e', 'params': '{"method":"hospedes.rpc_get","uuid":"8c7eee65-a401-4a71-975a-35402484c1d2-1445547572.65-a45d362963ec"}')>
+2020-02-07 18:16:02,522 INFO     br_v1
+2020-02-07 18:16:02,522 INFO     <MultiDictProxy('timestamp': '1581110162', 'username': 'admin', 'hmac': '506ab25e9a6bef712b72bdce4be4979dd2dbb41a', 'params': '{"method":"hospedes.rpc_get","uuid":"7cffc6a5-878f-4977-89a7-9d30c337a6da-1445547336.37-a45d362963ec"}')>
+2020-02-07 18:16:05,081 INFO     br_v1
+2020-02-07 18:16:05,082 INFO     <MultiDictProxy('timestamp': '1581110165', 'username': 'admin', 'hmac': '78e0d139389ffd756536f79bce4221576ac6a197', 'params': '{"method":"hospedes.rpc_get","uuid":"7cffc6a5-878f-4977-89a7-9d30c337a6da-1445547336.37-a45d362963ec"}')>
+2020-02-07 18:16:05,634 INFO     br_v1
+2020-02-07 18:16:05,634 INFO     <MultiDictProxy('timestamp': '1581110165', 'username': 'admin', 'hmac': '4cb4b241154c2a4105f43741dea539ff224daa72', 'params': '{"method":"hospedes.rpc_get","uuid":"8a080685-b471-4a9a-869a-f5482bd706bc-1445547272.13-a45d362963ec"}')>
+2020-02-07 18:16:07,337 INFO     br_v1
+2020-02-07 18:16:07,338 INFO     <MultiDictProxy('timestamp': '1581110167', 'username': 'admin', 'hmac': 'da3106789084f0662d35f8b89d12d24d1d204341', 'params': '{"method":"hospedes.rpc_get","uuid":"8cf5e392-c60c-4d1d-9ff7-6310d1b4e3a7-1445547454.4-a45d362963ec"}')>
+2020-02-07 18:16:12,258 INFO     br_v1
+2020-02-07 18:16:12,258 INFO     <MultiDictProxy('timestamp': '1581110172', 'username': 'admin', 'hmac': 'b7f29eba6add9d26721dba15a01d0154fe20c17f', 'params': '{"method":"hospedes.rpc_get","uuid":"fcc0970b-12d0-41e2-81ef-6b7b98126760-1445547427.56-a45d362963ec"}')>
+2020-02-07 18:16:17,280 INFO     br_v1
+2020-02-07 18:16:17,281 INFO     <MultiDictProxy('timestamp': '1581110177', 'username': 'admin', 'hmac': 'fc475d847152e75875ea43aa1d3d698bf2b19bbc', 'params': '{"method":"hospedes.rpc_get","uuid":"8c7eee65-a401-4a71-975a-35402484c1d2-1445547572.65-a45d362963ec"}')>
+2020-02-07 18:16:17,924 INFO     br_v1
+2020-02-07 18:16:17,925 INFO     <MultiDictProxy('timestamp': '1581110177', 'username': 'admin', 'hmac': 'cf8dcac15d902441c46b58ba12f5b1d1312dd0a6', 'params': '{"method":"hospedes.rpc_get","uuid":"7cffc6a5-878f-4977-89a7-9d30c337a6da-1445547336.37-a45d362963ec"}')>
+2020-02-07 18:16:18,721 INFO     br_v1
+2020-02-07 18:16:18,721 INFO     <MultiDictProxy('timestamp': '1581110178', 'username': 'admin', 'hmac': '74994993ec5d73ae5e056bdca5ad28b68ae70cb4', 'params': '{"method":"hospedes.rpc_get","uuid":"8a080685-b471-4a9a-869a-f5482bd706bc-1445547272.13-a45d362963ec"}')>
+2020-02-07 18:16:20,257 INFO     br_v1
+2020-02-07 18:16:20,257 INFO     <MultiDictProxy('timestamp': '1581110180', 'username': 'admin', 'hmac': 'c9b5d1bf95d4e2dfe0f96fc883d94e4ba7943407', 'params': '{"method":"hospedes.rpc_get","uuid":"8a080685-b471-4a9a-869a-f5482bd706bc-1445547272.13-a45d362963ec"}')>
+2020-02-07 18:16:21,273 INFO     br_v1
+2020-02-07 18:16:21,273 INFO     <MultiDictProxy('timestamp': '1581110181', 'username': 'admin', 'hmac': 'cb0941b86c7952ffebcf0416460614d754c09699', 'params': '{"method":"hospedes.rpc_get","uuid":"8cf5e392-c60c-4d1d-9ff7-6310d1b4e3a7-1445547454.4-a45d362963ec"}')>
+2020-02-07 18:16:22,729 INFO     br_v1
+2020-02-07 18:16:22,730 INFO     <MultiDictProxy('timestamp': '1581110182', 'username': 'admin', 'hmac': '7e08ec4a5210284e551fcc05a654f9c29875dc94', 'params': '{"method":"hospedes.rpc_get","uuid":"62993d68-f2a5-4f40-9e6f-59ca436d6e44-1445547387.02-a45d362963ec"}')>
+2020-02-07 18:16:24,722 INFO     br_v1
+2020-02-07 18:16:24,722 INFO     <MultiDictProxy('timestamp': '1581110184', 'username': 'admin', 'hmac': '1743f8f94b3a5b0c846ac7fbdd741fc97c6d02b6', 'params': '{"method":"hospedes.rpc_get","uuid":"b38fced9-ca9b-4c33-9a5b-1ee313914f5f-1445547274.52-a45d362963ec"}')>
+2020-02-07 18:16:29,446 INFO     br_v1
+2020-02-07 18:16:29,447 INFO     <MultiDictProxy('timestamp': '1581110189', 'username': 'admin', 'hmac': 'd4679041ae884cdad694e4728030e98a897df1ed', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 18:16:30,774 INFO     br_v1
+2020-02-07 18:16:30,775 INFO     <MultiDictProxy('timestamp': '1581110190', 'username': 'admin', 'hmac': 'd795f9292d697ce1b2fb1e2f43008e1c3068c090', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-07 18:16:36,480 INFO     br_v1
+2020-02-07 18:16:36,480 INFO     <MultiDictProxy('timestamp': '1581110196', 'username': 'admin', 'hmac': '000633c66898d96b5ca0001e7419005546808f9a', 'params': '{"method":"hospedes.rpc_get","uuid":"96354456-7205-4ae0-b20e-fe615b565493-1445547507.76-a45d362963ec"}')>
+2020-02-07 18:16:41,238 INFO     br_v1
+2020-02-07 18:16:41,239 INFO     <MultiDictProxy('timestamp': '1581110201', 'username': 'admin', 'hmac': '29f6cb9727a96a3032640529b00ce48cc2f9f438', 'params': '{"method":"hospedes.rpc_query","query":"fabiana"}')>
+2020-02-07 18:16:47,056 INFO     br_v1
+2020-02-07 18:16:47,056 INFO     <MultiDictProxy('timestamp': '1581110207', 'username': 'admin', 'hmac': '03a421ad16adb1e95e6e7b72480f78333f5ce54a', 'params': '{"method":"hospedes.rpc_get","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec"}')>
+2020-02-07 18:16:57,400 INFO     br_v1
+2020-02-07 18:16:57,400 INFO     <MultiDictProxy('timestamp': '1581110217', 'username': 'admin', 'hmac': '298a0c1c55f6f835bc36db22a40f1ce5086273c1', 'params': '{"method":"hospedes.rpc_get","uuid":"9f038519-e8ca-4578-9764-1c43f2ff17fa-1445547283.42-a45d362963ec"}')>
+2020-02-07 18:17:01,432 INFO     br_v1
+2020-02-07 18:17:01,432 INFO     <MultiDictProxy('timestamp': '1581110221', 'username': 'admin', 'hmac': '8a03d186a44ce5e2aaa6296b813ebb1bd324aa70', 'params': '{"method":"hospedes.rpc_query","query":"rogerio"}')>
+2020-02-07 18:17:03,465 INFO     br_v1
+2020-02-07 18:17:03,465 INFO     <MultiDictProxy('timestamp': '1581110223', 'username': 'admin', 'hmac': '82cac2a842ed6ad246cd669a97e3a0d45edd6e34', 'params': '{"method":"hospedes.rpc_get","uuid":"08cfa615-9e9e-449a-8daa-790325e91a11-1445547362.17-a45d362963ec"}')>
+2020-02-07 18:17:04,658 INFO     br_v1
+2020-02-07 18:17:04,658 INFO     <MultiDictProxy('timestamp': '1581110224', 'username': 'admin', 'hmac': 'bc5f54f772efd2c638710cf16c029cdc2dc1fda9', 'params': '{"method":"hospedes.rpc_get","uuid":"17407e53-c358-41dc-baea-626a9265bd9f-1464711908.91-a45d362963ec"}')>
+2020-02-07 18:17:06,329 INFO     br_v1
+2020-02-07 18:17:06,329 INFO     <MultiDictProxy('timestamp': '1581110226', 'username': 'admin', 'hmac': '957ad414703bafe1a2f25b1849a6d7d0acdd095c', 'params': '{"method":"hospedes.rpc_get","uuid":"f3cc8619-c5ad-44f1-b6f9-43ea0f0fb5a3-1445547286.74-a45d362963ec"}')>
+2020-02-07 18:17:30,488 INFO     br_v1
+2020-02-07 18:17:30,488 INFO     <MultiDictProxy('timestamp': '1581110250', 'username': 'admin', 'hmac': '4a991f7789242c0adb1e283ed64d9cac5da4525e', 'params': '{"method":"hospedes.rpc_get","uuid":"08cfa615-9e9e-449a-8daa-790325e91a11-1445547362.17-a45d362963ec"}')>
+2020-02-07 18:17:31,097 INFO     br_v1
+2020-02-07 18:17:31,098 INFO     <MultiDictProxy('timestamp': '1581110251', 'username': 'admin', 'hmac': '61e2110dc0a942e376b0e508c43a52c5ffcfcf6e', 'params': '{"method":"hospedes.rpc_get","uuid":"17407e53-c358-41dc-baea-626a9265bd9f-1464711908.91-a45d362963ec"}')>
+2020-02-07 18:17:32,768 INFO     br_v1
+2020-02-07 18:17:32,768 INFO     <MultiDictProxy('timestamp': '1581110252', 'username': 'admin', 'hmac': '58e25250f7ea2729188695ec0587d790f17c907b', 'params': '{"method":"hospedes.rpc_get","uuid":"f3cc8619-c5ad-44f1-b6f9-43ea0f0fb5a3-1445547286.74-a45d362963ec"}')>
+2020-02-07 18:17:33,791 INFO     br_v1
+2020-02-07 18:17:33,792 INFO     <MultiDictProxy('timestamp': '1581110253', 'username': 'admin', 'hmac': '7f18a17ec1e31ad4dcce8c41f7ee905277722648', 'params': '{"method":"hospedes.rpc_get","uuid":"f3cc8619-c5ad-44f1-b6f9-43ea0f0fb5a3-1445547286.74-a45d362963ec"}')>
+2020-02-07 18:17:35,272 INFO     br_v1
+2020-02-07 18:17:35,272 INFO     <MultiDictProxy('timestamp': '1581110255', 'username': 'admin', 'hmac': '62bd2254919fe7abe421962f1367c771a1f173b5', 'params': '{"method":"hospedes.rpc_get","uuid":"4ccc3cfe-afe4-4c27-85e4-9a13892ff00b-1445547516.31-a45d362963ec"}')>
+2020-02-07 18:17:38,192 INFO     br_v1
+2020-02-07 18:17:38,193 INFO     <MultiDictProxy('timestamp': '1581110258', 'username': 'admin', 'hmac': '9bd5ec7168b796b3f8b3182f0f519a3942c02935', 'params': '{"method":"hospedes.rpc_get","uuid":"43cad1cc-e4c5-4989-bb99-bd219c4bc548-1465497185.44-a45d362963ec"}')>
+2020-02-07 18:17:40,944 INFO     br_v1
+2020-02-07 18:17:40,944 INFO     <MultiDictProxy('timestamp': '1581110260', 'username': 'admin', 'hmac': '91df7e09e220a5e34ae27c70d88ea00862476654', 'params': '{"method":"hospedes.rpc_get","uuid":"553f9a28-38cf-4870-ad49-7121a90e9b60-1445547293.1-a45d362963ec"}')>
+2020-02-07 18:17:44,903 INFO     br_v1
+2020-02-07 18:17:44,904 INFO     <MultiDictProxy('timestamp': '1581110264', 'username': 'admin', 'hmac': '8eff6a57f84392d9981ec16f208ede7572b718a0', 'params': '{"method":"hospedes.rpc_get","uuid":"777a409d-e2dd-48c3-bf8c-0f474227c7d5-1445547429.74-a45d362963ec"}')>
+2020-02-07 18:17:45,608 INFO     br_v1
+2020-02-07 18:17:45,608 INFO     <MultiDictProxy('timestamp': '1581110265', 'username': 'admin', 'hmac': '4089836476ec11094b8e5b1f8d6392918d98ff6c', 'params': '{"method":"hospedes.rpc_get","uuid":"777a409d-e2dd-48c3-bf8c-0f474227c7d5-1445547429.74-a45d362963ec"}')>
+2020-02-07 18:17:46,871 INFO     br_v1
+2020-02-07 18:17:46,871 INFO     <MultiDictProxy('timestamp': '1581110266', 'username': 'admin', 'hmac': 'bb3a079da1c3ffdc22526df77b17a9cc3bcc7dbf', 'params': '{"method":"hospedes.rpc_get","uuid":"553f9a28-38cf-4870-ad49-7121a90e9b60-1445547293.1-a45d362963ec"}')>
+2020-02-07 18:17:47,879 INFO     br_v1
+2020-02-07 18:17:47,879 INFO     <MultiDictProxy('timestamp': '1581110267', 'username': 'admin', 'hmac': '82ed24e770abeb19a40d3964a4c15122142f26ff', 'params': '{"method":"hospedes.rpc_get","uuid":"553f9a28-38cf-4870-ad49-7121a90e9b60-1445547293.1-a45d362963ec"}')>
+2020-02-07 18:17:49,119 INFO     br_v1
+2020-02-07 18:17:49,119 INFO     <MultiDictProxy('timestamp': '1581110269', 'username': 'admin', 'hmac': 'c1db8fdf9908d481de4f3abfc1982ae062aa3c7b', 'params': '{"method":"hospedes.rpc_get","uuid":"4ccc3cfe-afe4-4c27-85e4-9a13892ff00b-1445547516.31-a45d362963ec"}')>
+2020-02-07 18:25:22,320 INFO     br_v1
+2020-02-07 18:25:22,320 INFO     <MultiDictProxy('timestamp': '1581110722', 'username': 'admin', 'hmac': '573f49b6b6ffd0909853ed558bc001246ce897f6', 'params': '{"method":"hospedes.rpc_query","query":"gley"}')>
+2020-02-07 18:25:23,848 INFO     br_v1
+2020-02-07 18:25:23,849 INFO     <MultiDictProxy('timestamp': '1581110723', 'username': 'admin', 'hmac': '0a6fb08316eb98023670b92b47d6dcb847cb9d4e', 'params': '{"method":"hospedes.rpc_get","uuid":"004a5a27-11d8-4bef-8e3a-fcc6ba8b9573-1463731222.84-a45d362963ec"}')>
+2020-02-07 18:26:01,949 INFO     br_v1
+2020-02-07 18:26:01,949 INFO     <MultiDictProxy('timestamp': '1581110761', 'username': 'admin', 'hmac': '8f8a8f8fc5b4cdd9b5abbec04083e42ffb33942c', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2020-02-07 18:26:05,872 INFO     br_v1
+2020-02-07 18:26:05,872 INFO     <MultiDictProxy('timestamp': '1581110765', 'username': 'admin', 'hmac': '8010b96343158511b0a149bfc67f228f9ea83566', 'params': '{"method":"hospedes.rpc_get","uuid":"fcc0970b-12d0-41e2-81ef-6b7b98126760-1445547427.56-a45d362963ec"}')>
+2020-02-07 18:26:07,751 INFO     br_v1
+2020-02-07 18:26:07,751 INFO     <MultiDictProxy('timestamp': '1581110767', 'username': 'admin', 'hmac': '4b743e04719eec0cfedf7eece040d95340f9fe6c', 'params': '{"method":"hospedes.rpc_get","uuid":"8c7eee65-a401-4a71-975a-35402484c1d2-1445547572.65-a45d362963ec"}')>
+2020-02-07 18:26:09,527 INFO     br_v1
+2020-02-07 18:26:09,528 INFO     <MultiDictProxy('timestamp': '1581110769', 'username': 'admin', 'hmac': '359ef816e7525302e1697333b6ef972eb9d38776', 'params': '{"method":"hospedes.rpc_get","uuid":"7cffc6a5-878f-4977-89a7-9d30c337a6da-1445547336.37-a45d362963ec"}')>
+2020-02-07 18:26:10,959 INFO     br_v1
+2020-02-07 18:26:10,959 INFO     <MultiDictProxy('timestamp': '1581110770', 'username': 'admin', 'hmac': '6cecea74a06057e7bbcd738657f64b0a24cbd052', 'params': '{"method":"hospedes.rpc_get","uuid":"8a080685-b471-4a9a-869a-f5482bd706bc-1445547272.13-a45d362963ec"}')>
+2020-02-07 18:26:12,487 INFO     br_v1
+2020-02-07 18:26:12,488 INFO     <MultiDictProxy('timestamp': '1581110772', 'username': 'admin', 'hmac': 'da7a71227121a6ba58c999240247616d557d180c', 'params': '{"method":"hospedes.rpc_get","uuid":"8cf5e392-c60c-4d1d-9ff7-6310d1b4e3a7-1445547454.4-a45d362963ec"}')>
+2020-02-07 18:26:13,416 INFO     br_v1
+2020-02-07 18:26:13,416 INFO     <MultiDictProxy('timestamp': '1581110773', 'username': 'admin', 'hmac': '921f99f754aa125f343f3c9dad9e05571ca3e735', 'params': '{"method":"hospedes.rpc_get","uuid":"62993d68-f2a5-4f40-9e6f-59ca436d6e44-1445547387.02-a45d362963ec"}')>
+2020-02-07 18:26:18,175 INFO     br_v1
+2020-02-07 18:26:18,175 INFO     <MultiDictProxy('timestamp': '1581110778', 'username': 'admin', 'hmac': '54f8eca4f92fae81f66d1179602717c64996d63b', 'params': '{"method":"hospedes.rpc_get","uuid":"d24fa62c-f307-4be8-b8ae-2e01bf2eacd6-1445547459.26-a45d362963ec"}')>
+2020-02-07 18:26:19,687 INFO     br_v1
+2020-02-07 18:26:19,687 INFO     <MultiDictProxy('timestamp': '1581110779', 'username': 'admin', 'hmac': '7ee91f01ae5b77d9bc1f81a015905be85e862331', 'params': '{"method":"hospedes.rpc_get","uuid":"02ce7294-ec62-46bc-b982-030386d22258-1445547579.07-a45d362963ec"}')>
+2020-02-07 18:26:20,919 INFO     br_v1
+2020-02-07 18:26:20,919 INFO     <MultiDictProxy('timestamp': '1581110780', 'username': 'admin', 'hmac': '5b2b9949ac7884b3be1ed9fa88ea0849491ec670', 'params': '{"method":"hospedes.rpc_get","uuid":"7bbfee2b-d2e5-4561-89d2-f1a7e8f015fd-1445547254.54-a45d362963ec"}')>
+2020-02-07 18:26:21,542 INFO     br_v1
+2020-02-07 18:26:21,543 INFO     <MultiDictProxy('timestamp': '1581110781', 'username': 'admin', 'hmac': '7f765779f0704535cf51462d348f588fb88b7285', 'params': '{"method":"hospedes.rpc_get","uuid":"9907a058-b4c1-42d6-bc37-3c6024ce6917-1476539933.74-a45d362963ec"}')>
+2020-02-07 18:26:23,814 INFO     br_v1
+2020-02-07 18:26:23,815 INFO     <MultiDictProxy('timestamp': '1581110783', 'username': 'admin', 'hmac': '5cdff2f15f7692dc49cdbe6954ff77a764dde168', 'params': '{"method":"hospedes.rpc_get","uuid":"9907a058-b4c1-42d6-bc37-3c6024ce6917-1476539933.74-a45d362963ec"}')>
+2020-02-07 18:26:25,135 INFO     br_v1
+2020-02-07 18:26:25,135 INFO     <MultiDictProxy('timestamp': '1581110785', 'username': 'admin', 'hmac': '820426df2995c28f4f407e323bdc6fc59ebd61b0', 'params': '{"method":"hospedes.rpc_get","uuid":"f26608ce-59de-4c41-8d9d-6fb7db6caa26-1445547409.52-a45d362963ec"}')>
+2020-02-07 18:26:49,756 INFO     br_v1
+2020-02-07 18:26:49,756 INFO     <MultiDictProxy('timestamp': '1581110809', 'username': 'admin', 'hmac': '9c109ef71897ec1c8d2c95c72fc73a3b5aba3165', 'params': '{"method":"hospedes.rpc_query","query":"ricardo almeida"}')>
+2020-02-07 18:26:53,190 INFO     br_v1
+2020-02-07 18:26:53,190 INFO     <MultiDictProxy('timestamp': '1581110813', 'username': 'admin', 'hmac': 'f623921a3859d4d142f21baad31c7c39902d7a4a', 'params': '{"method":"hospedes.rpc_get","uuid":"8cf5e392-c60c-4d1d-9ff7-6310d1b4e3a7-1445547454.4-a45d362963ec"}')>
+2020-02-07 18:26:53,986 INFO     br_v1
+2020-02-07 18:26:53,986 INFO     <MultiDictProxy('timestamp': '1581110813', 'username': 'admin', 'hmac': '854553e1fe4240024a36aa51f3ba382bef61894d', 'params': '{"method":"hospedes.rpc_get","uuid":"62993d68-f2a5-4f40-9e6f-59ca436d6e44-1445547387.02-a45d362963ec"}')>
+2020-02-07 18:27:12,091 INFO     br_v1
+2020-02-07 18:27:12,091 INFO     <MultiDictProxy('timestamp': '1581110832', 'username': 'admin', 'hmac': 'b56821918554752e66a9ec7e746b1f5f6e46ef8f', 'params': '{"method":"hospedes.rpc_query","query":"897"}')>
+2020-02-07 18:27:19,131 INFO     br_v1
+2020-02-07 18:27:19,132 INFO     <MultiDictProxy('timestamp': '1581110839', 'username': 'admin', 'hmac': '0a55069166adb84afc9e8f3bcb4bce4789faa378', 'params': '{"method":"hospedes.rpc_query","query":"89709"}')>
+2020-02-07 18:27:23,755 INFO     br_v1
+2020-02-07 18:27:23,755 INFO     <MultiDictProxy('timestamp': '1581110843', 'username': 'admin', 'hmac': '781e211349e571c8fe104b9965bbffdd174306af', 'params': '{"method":"hospedes.rpc_query","query":""}')>
+2020-02-08 02:45:45,775 INFO     Starting http server
+2020-02-08 02:50:12,659 INFO     br_v1
+2020-02-08 02:50:12,660 INFO     <MultiDictProxy('timestamp': '1581141012', 'username': 'admin', 'hmac': 'f6e96ac990acaeab052137b315cf095eb3ad2fd6', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-08 02:50:13,873 INFO     br_v1
+2020-02-08 02:50:13,874 INFO     <MultiDictProxy('timestamp': '1581141013', 'username': 'admin', 'hmac': '3c54baebfe01bee9fa63dcd9d8ef2086be4a66aa', 'params': '{"method":"hospedes.rpc_get","uuid":"fcc0970b-12d0-41e2-81ef-6b7b98126760-1445547427.56-a45d362963ec"}')>
+2020-02-08 02:50:51,074 INFO     br_v1
+2020-02-08 02:50:51,075 INFO     <MultiDictProxy('timestamp': '1581141051', 'username': 'admin', 'hmac': '8d44a717f51205167b7a5e3f06c7987901214d54', 'params': '{"method":"hospedes.rpc_query","query":"roberto"}')>
+2020-02-08 02:50:52,720 INFO     br_v1
+2020-02-08 02:50:52,720 INFO     <MultiDictProxy('timestamp': '1581141052', 'username': 'admin', 'hmac': '978883191ce3b24509bac4c9d8119da7d3834197', 'params': '{"method":"hospedes.rpc_get","uuid":"ca0061c8-c682-4c25-8452-317a7b3444c4-1445547543.42-a45d362963ec"}')>
+2020-02-08 03:06:36,275 INFO     br_v1
+2020-02-08 03:06:36,275 INFO     <MultiDictProxy('timestamp': '1581141996', 'username': 'admin', 'hmac': '2a38312499ac5ce7776df3fdbfdf294d3c03ba73', 'params': '{"method":"hospedes.rpc_query","query":"ricarod"}')>
+2020-02-08 03:06:38,737 INFO     br_v1
+2020-02-08 03:06:38,737 INFO     <MultiDictProxy('timestamp': '1581141998', 'username': 'admin', 'hmac': '378eefa0866bd6afcacb63e3f388c77c4fff6d85', 'params': '{"method":"hospedes.rpc_query","query":"ricaro"}')>
+2020-02-08 03:07:03,187 INFO     br_v1
+2020-02-08 03:07:03,187 INFO     <MultiDictProxy('timestamp': '1581142023', 'username': 'admin', 'hmac': '3d90af5c6aaa2ffa66bdbb97caa0ad015f885451', 'params': '{"method":"hospedes.rpc_query","query":"ri"}')>
+2020-02-08 03:07:04,696 INFO     br_v1
+2020-02-08 03:07:04,696 INFO     <MultiDictProxy('timestamp': '1581142024', 'username': 'admin', 'hmac': 'd95ae8d3ff05807b5373ec1ede6a71dd100a8c92', 'params': '{"method":"hospedes.rpc_get","uuid":"eba89f08-1616-4553-aebf-f796976440b1-1445547559.11-a45d362963ec"}')>
+2020-02-08 03:07:30,451 INFO     br_v1
+2020-02-08 03:07:30,452 INFO     <MultiDictProxy('timestamp': '1581142050', 'username': 'admin', 'hmac': '272e485fef068b471cc42a01658d3cb00671b94f', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2020-02-08 03:07:31,872 INFO     br_v1
+2020-02-08 03:07:31,872 INFO     <MultiDictProxy('timestamp': '1581142051', 'username': 'admin', 'hmac': '2c79c4fa26ab4ec1faf785dcde4daa235b6c8b12', 'params': '{"method":"hospedes.rpc_get","uuid":"8c7eee65-a401-4a71-975a-35402484c1d2-1445547572.65-a45d362963ec"}')>
+2020-02-08 03:08:26,850 INFO     br_v1
+2020-02-08 03:08:26,851 INFO     <MultiDictProxy('timestamp': '1581142106', 'username': 'admin', 'hmac': '70a6ac5d71586c22893b1a466dd4e70fc67bf796', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2020-02-08 03:08:27,646 INFO     br_v1
+2020-02-08 03:08:27,647 INFO     <MultiDictProxy('timestamp': '1581142107', 'username': 'admin', 'hmac': 'eba4819e75c0a62405d993c773f6e016fc401e1a', 'params': '{"method":"hospedes.rpc_get","uuid":"fcc0970b-12d0-41e2-81ef-6b7b98126760-1445547427.56-a45d362963ec"}')>
+2020-02-08 03:09:30,689 INFO     br_v1
+2020-02-08 03:09:30,689 INFO     <MultiDictProxy('timestamp': '1581142170', 'username': 'admin', 'hmac': 'acd69d498dca688e1c9f82809bada859c3fcd879', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2020-02-08 03:09:31,486 INFO     br_v1
+2020-02-08 03:09:31,486 INFO     <MultiDictProxy('timestamp': '1581142171', 'username': 'admin', 'hmac': '05e5b3c8895f8a656d5ee52d67a6ed77384b0aef', 'params': '{"method":"hospedes.rpc_get","uuid":"7cffc6a5-878f-4977-89a7-9d30c337a6da-1445547336.37-a45d362963ec"}')>
+2020-02-08 03:17:01,641 INFO     br_v1
+2020-02-08 03:17:01,641 INFO     <MultiDictProxy('timestamp': '1581142621', 'username': 'admin', 'hmac': '01050ad86555f2b24779d2b6799c9947c2ff1fd4', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2020-02-08 03:17:02,671 INFO     br_v1
+2020-02-08 03:17:02,671 INFO     <MultiDictProxy('timestamp': '1581142622', 'username': 'admin', 'hmac': 'ea5fc1578edc836b161e390fd10f93c834120f41', 'params': '{"method":"hospedes.rpc_get","uuid":"fcc0970b-12d0-41e2-81ef-6b7b98126760-1445547427.56-a45d362963ec"}')>
+2020-02-08 03:20:39,110 INFO     br_v1
+2020-02-08 03:20:39,110 INFO     <MultiDictProxy('timestamp': '1581142839', 'username': 'admin', 'hmac': '9cfd82741938addd0f3f838dbf026902ec788033', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2020-02-08 03:20:40,259 INFO     br_v1
+2020-02-08 03:20:40,259 INFO     <MultiDictProxy('timestamp': '1581142840', 'username': 'admin', 'hmac': '8cb56b41db510e07994d35ea607c73f983da936f', 'params': '{"method":"hospedes.rpc_get","uuid":"fcc0970b-12d0-41e2-81ef-6b7b98126760-1445547427.56-a45d362963ec"}')>
+2020-02-08 03:21:16,389 INFO     br_v1
+2020-02-08 03:21:16,389 INFO     <MultiDictProxy('timestamp': '1581142876', 'username': 'admin', 'hmac': 'a7ab9c33cd0b04544e9006b8a01f0bd45c3304a3', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2020-02-08 03:21:17,985 INFO     br_v1
+2020-02-08 03:21:17,986 INFO     <MultiDictProxy('timestamp': '1581142877', 'username': 'admin', 'hmac': 'e6597083ec600ac29f2f9007df08ebc1af27a169', 'params': '{"method":"hospedes.rpc_get","uuid":"fcc0970b-12d0-41e2-81ef-6b7b98126760-1445547427.56-a45d362963ec"}')>
+2020-02-08 03:21:35,541 INFO     br_v1
+2020-02-08 03:21:35,541 INFO     <MultiDictProxy('timestamp': '1581142895', 'username': 'admin', 'hmac': 'f0626d03dbd77d8dc11bee5ab46806f62c870369', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2020-02-08 03:21:36,881 INFO     br_v1
+2020-02-08 03:21:36,881 INFO     <MultiDictProxy('timestamp': '1581142896', 'username': 'admin', 'hmac': 'b28be816a3318898e709d7cf24d3aa11c993775c', 'params': '{"method":"hospedes.rpc_get","uuid":"fcc0970b-12d0-41e2-81ef-6b7b98126760-1445547427.56-a45d362963ec"}')>
+2020-02-08 03:32:25,913 INFO     br_v1
+2020-02-08 03:32:25,914 INFO     <MultiDictProxy('timestamp': '1581143545', 'username': 'admin', 'hmac': 'c2fae8cd7065c7726ce0fafc28e9b1d42d60bdef', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2020-02-08 03:32:27,127 INFO     br_v1
+2020-02-08 03:32:27,127 INFO     <MultiDictProxy('timestamp': '1581143547', 'username': 'admin', 'hmac': 'cc763ad778ca22b35464c6435b29b52d48d2caaa', 'params': '{"method":"hospedes.rpc_get","uuid":"fcc0970b-12d0-41e2-81ef-6b7b98126760-1445547427.56-a45d362963ec"}')>
+2020-02-08 03:36:47,733 INFO     br_v1
+2020-02-08 03:36:47,733 INFO     <MultiDictProxy('timestamp': '1581143807', 'username': 'admin', 'hmac': '1d2c24f977e380b3b77cb0cc11d12cbba8e944e9', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2020-02-08 03:36:48,754 INFO     br_v1
+2020-02-08 03:36:48,754 INFO     <MultiDictProxy('timestamp': '1581143808', 'username': 'admin', 'hmac': '590b28a61594cd8bdfbd187d27f2b5242826e08d', 'params': '{"method":"hospedes.rpc_get","uuid":"fcc0970b-12d0-41e2-81ef-6b7b98126760-1445547427.56-a45d362963ec"}')>
+2020-02-08 03:37:03,652 INFO     br_v1
+2020-02-08 03:37:03,652 INFO     <MultiDictProxy('timestamp': '1581143823', 'username': 'admin', 'hmac': '6fe89ffc91ed6743055c58439089bb7c7e6f8b24', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2020-02-08 03:37:05,810 INFO     br_v1
+2020-02-08 03:37:05,810 INFO     <MultiDictProxy('timestamp': '1581143825', 'username': 'admin', 'hmac': 'da0575e0cae0962a953014ba8aec8a6cfcc4c45d', 'params': '{"method":"hospedes.rpc_get","uuid":"8cf5e392-c60c-4d1d-9ff7-6310d1b4e3a7-1445547454.4-a45d362963ec"}')>
+2020-02-08 03:39:42,162 INFO     br_v1
+2020-02-08 03:39:42,163 INFO     <MultiDictProxy('timestamp': '1581143982', 'username': 'admin', 'hmac': '85a449a9cc1e0e2ff339cd35ff0a03efc8df9c75', 'params': '{"method":"hospedes.rpc_query","query":"ricardo"}')>
+2020-02-08 03:39:43,279 INFO     br_v1
+2020-02-08 03:39:43,279 INFO     <MultiDictProxy('timestamp': '1581143983', 'username': 'admin', 'hmac': '5e10953853800b2d85d662c186701b17a7acdc58', 'params': '{"method":"hospedes.rpc_get","uuid":"fcc0970b-12d0-41e2-81ef-6b7b98126760-1445547427.56-a45d362963ec"}')>
+2020-02-08 03:43:38,382 INFO     br_v1
+2020-02-08 03:43:38,382 INFO     <MultiDictProxy('timestamp': '1581144218', 'username': 'admin', 'hmac': 'fe8b1f90d372b84856906a1344a7de398be457a2', 'params': '{"method":"hospedes.rpc_query","query":"fabiana borges"}')>
+2020-02-08 03:43:39,826 INFO     br_v1
+2020-02-08 03:43:39,826 INFO     <MultiDictProxy('timestamp': '1581144219', 'username': 'admin', 'hmac': '36fafa4f82f8eeb709b0ca3ece66a456e9930feb', 'params': '{"method":"hospedes.rpc_get","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec"}')>
+2020-02-08 03:43:51,938 INFO     br_v1
+2020-02-08 03:43:51,939 INFO     <MultiDictProxy('timestamp': '1581144231', 'username': 'admin', 'hmac': '0e34bfbd9851474f01851e3ffc3528920cc41bc2', 'params': '{"method":"hospedes.rpc_get","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec"}')>
+2020-02-08 03:45:17,826 INFO     br_v1
+2020-02-08 03:45:17,826 INFO     <MultiDictProxy('timestamp': '1581144317', 'username': 'admin', 'hmac': 'f4f140d761febfa53313ddda8114b973a2ac07f8', 'params': '{"method":"hospedes.rpc_get","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec"}')>
+2020-02-08 03:45:25,681 INFO     br_v1
+2020-02-08 03:45:25,681 INFO     <MultiDictProxy('timestamp': '1581144325', 'username': 'admin', 'hmac': '01e7b9fea2a130564f1de6808a545920e2ee6647', 'params': '{"method":"hospedes.rpc_get","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec"}')>
+2020-02-08 03:45:40,172 INFO     br_v1
+2020-02-08 03:45:40,172 INFO     <MultiDictProxy('timestamp': '1581144340', 'username': 'admin', 'hmac': 'af96c7709a2836d86ba104c1cca3ed672ef6f68e', 'params': '{"method":"hospedes.rpc_query","query":"fabiana"}')>
+2020-02-08 03:45:41,417 INFO     br_v1
+2020-02-08 03:45:41,417 INFO     <MultiDictProxy('timestamp': '1581144341', 'username': 'admin', 'hmac': 'edd24febf27c1d10b1dff61830f67fcba6a0469e', 'params': '{"method":"hospedes.rpc_get","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec"}')>
+2020-02-08 03:45:49,491 INFO     br_v1
+2020-02-08 03:45:49,491 INFO     <MultiDictProxy('timestamp': '1581144349', 'username': 'admin', 'hmac': '52f7b6a403c4227a006f3d227d43d255cbc46190', 'params': '{"method":"hospedes.rpc_save","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec","data_cadastro":"15/06/2016","nome":"FABIANA BORGES DE ALMEIDA","mae":"maria de lourdes b, de almeida","cpf":"","rg":"mg17206597","naturalidade":"","nascimento":"17/11/1992","nacionalidade":"","profissao":"Gostosa","empresa":"","carroplaca":"","procedencia":"","destino":"","endereco":"rua arcanio pereira","bairro":"copasa","cidade":"novo cruzeiro","estado":"mg","cep":"39820000","telefones":"33 88599661","email":""}')>
+2020-02-08 03:45:51,784 INFO     br_v1
+2020-02-08 03:45:51,785 INFO     <MultiDictProxy('timestamp': '1581144351', 'username': 'admin', 'hmac': '8a2264cd686330b1467345988afe726bfffc1f16', 'params': '{"method":"hospedes.rpc_get","uuid":"9079ed13-d2c4-4367-8c9e-687daa923b22-1456103596.93-a45d362963ec"}')>
+2020-02-08 03:45:52,496 INFO     br_v1
+2020-02-08 03:45:52,496 INFO     <MultiDictProxy('timestamp': '1581144352', 'username': 'admin', 'hmac': 'e37a820401a1d28e3d157cabcde4cb1e526c3ae6', 'params': '{"method":"hospedes.rpc_get","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec"}')>
+2020-02-08 03:45:54,927 INFO     br_v1
+2020-02-08 03:45:54,928 INFO     <MultiDictProxy('timestamp': '1581144354', 'username': 'admin', 'hmac': 'a78b8d62bb81df296f542f5a58e4e8deb77f7a96', 'params': '{"method":"hospedes.rpc_get","uuid":"9079ed13-d2c4-4367-8c9e-687daa923b22-1456103596.93-a45d362963ec"}')>
+2020-02-08 03:45:55,728 INFO     br_v1
+2020-02-08 03:45:55,728 INFO     <MultiDictProxy('timestamp': '1581144355', 'username': 'admin', 'hmac': 'e765c05ad9eec6dfe9776e08f31e6fab0431a041', 'params': '{"method":"hospedes.rpc_get","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec"}')>
+2020-02-08 03:46:44,685 INFO     br_v1
+2020-02-08 03:46:44,685 INFO     <MultiDictProxy('timestamp': '1581144404', 'username': 'admin', 'hmac': '5dfd15a4b1a4688e5dedb586bcad0fe44c62ebbf', 'params': '{"method":"hospedes.rpc_query","query":"fabiana bo"}')>
+2020-02-08 03:46:46,200 INFO     br_v1
+2020-02-08 03:46:46,200 INFO     <MultiDictProxy('timestamp': '1581144406', 'username': 'admin', 'hmac': '2ce2de593cfd982f28fd4a523a43be2e6fe26e6c', 'params': '{"method":"hospedes.rpc_get","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec"}')>
+2020-02-08 03:46:49,169 INFO     br_v1
+2020-02-08 03:46:49,169 INFO     <MultiDictProxy('timestamp': '1581144409', 'username': 'admin', 'hmac': 'becbe7e3d0a390b356568b5a8f98b20090795b6f', 'params': '{"method":"hospedes.rpc_save","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec","data_cadastro":"15/06/2016","nome":"FABIANA BORGES DE ALMEIDA","mae":"maria de lourdes b, de almeida","cpf":"","rg":"mg17206597","naturalidade":"","nascimento":"17/11/1992","nacionalidade":"","profissao":"","empresa":"","carroplaca":"","procedencia":"","destino":"","endereco":"rua arcanio pereira","bairro":"copasa","cidade":"novo cruzeiro","estado":"mg","cep":"39820000","telefones":"33 88599661","email":""}')>
+2020-02-08 03:49:44,668 INFO     Starting http server
+2020-02-08 03:49:50,262 INFO     br_v1
+2020-02-08 03:49:50,263 INFO     <MultiDictProxy('timestamp': '1581144590', 'username': 'admin', 'hmac': '77072ebab20ccfab3ce484e0bdb4969cb7af2946', 'params': '{"method":"hospedes.rpc_query","query":"fabiana bo"}')>
+2020-02-08 03:49:51,412 INFO     br_v1
+2020-02-08 03:49:51,412 INFO     <MultiDictProxy('timestamp': '1581144591', 'username': 'admin', 'hmac': '90ddd8f633797d515402019fc72c98c7749fdba2', 'params': '{"method":"hospedes.rpc_get","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec"}')>
+2020-02-08 03:49:58,564 INFO     br_v1
+2020-02-08 03:49:58,564 INFO     <MultiDictProxy('timestamp': '1581144598', 'username': 'admin', 'hmac': '3ba019884fa16973dc003fa1ca9bd6578cbe901e', 'params': '{"method":"hospedes.rpc_save","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec","data_cadastro":"15/06/2016","nome":"FABIANA BORGES DE ALMEIDA","mae":"maria de lourdes b, de almeida","cpf":"","rg":"mg17206597","naturalidade":"","nascimento":"17/11/1992","nacionalidade":"","profissao":"Gostosa","empresa":"","carroplaca":"","procedencia":"","destino":"","endereco":"rua arcanio pereira","bairro":"copasa","cidade":"novo cruzeiro","estado":"mg","cep":"39820000","telefones":"33 88599661","email":""}')>
+2020-02-08 03:52:55,685 INFO     br_v1
+2020-02-08 03:52:55,685 INFO     <MultiDictProxy('timestamp': '1581144775', 'username': 'admin', 'hmac': 'ab4827167e8f4750c03b681da2ebf2d6fe38c018', 'params': '{"method":"hospedes.rpc_query","query":"fabiana bor"}')>
+2020-02-08 03:52:56,849 INFO     br_v1
+2020-02-08 03:52:56,850 INFO     <MultiDictProxy('timestamp': '1581144776', 'username': 'admin', 'hmac': '1b89ee2ee78de1de127a59d04a78bd37e6ababe3', 'params': '{"method":"hospedes.rpc_get","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec"}')>
+2020-02-08 03:53:01,891 INFO     br_v1
+2020-02-08 03:53:01,891 INFO     <MultiDictProxy('timestamp': '1581144781', 'username': 'admin', 'hmac': 'adf3275e537b48f5da5113815e10cb0454e1fe94', 'params': '{"method":"hospedes.rpc_save","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec","data_cadastro":"15/06/2016","nome":"FABIANA BORGES DE ALMEIDA","mae":"maria de lourdes b, de almeida","cpf":"","rg":"mg17206597","naturalidade":"","nascimento":"17/11/1992","nacionalidade":"Brasileira","profissao":"","empresa":"","carroplaca":"","procedencia":"","destino":"","endereco":"rua arcanio pereira","bairro":"copasa","cidade":"novo cruzeiro","estado":"mg","cep":"39820000","telefones":"33 88599661","email":"","extras":"14/06/2016"}')>
+2020-02-08 03:54:01,538 INFO     br_v1
+2020-02-08 03:54:01,539 INFO     <MultiDictProxy('timestamp': '1581144841', 'username': 'admin', 'hmac': '4608601fafc02be83c026c78f1b093184825b9d8', 'params': '{"method":"hospedes.rpc_query","query":"fabia"}')>
+2020-02-08 03:54:04,376 INFO     br_v1
+2020-02-08 03:54:04,376 INFO     <MultiDictProxy('timestamp': '1581144844', 'username': 'admin', 'hmac': '6fae2c83543b87dae675e0dd9ac37bdc03ffbe39', 'params': '{"method":"hospedes.rpc_get","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec"}')>
+2020-02-08 03:54:30,754 INFO     br_v1
+2020-02-08 03:54:30,754 INFO     <MultiDictProxy('timestamp': '1581144870', 'username': 'admin', 'hmac': 'c3c5f9a0e1cddb2b49527c7f0947ebee99bde443', 'params': '{"method":"hospedes.rpc_query","query":"fabiana"}')>
+2020-02-08 03:54:32,017 INFO     br_v1
+2020-02-08 03:54:32,017 INFO     <MultiDictProxy('timestamp': '1581144872', 'username': 'admin', 'hmac': '96fa8759aff2ad1d47d6d70675e40a6ad2442ca1', 'params': '{"method":"hospedes.rpc_get","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec"}')>
+2020-02-08 03:54:54,610 INFO     br_v1
+2020-02-08 03:54:54,610 INFO     <MultiDictProxy('timestamp': '1581144894', 'username': 'admin', 'hmac': 'd98d3d6c77c34a3f558b301164aa7132b5e77bba', 'params': '{"method":"hospedes.rpc_query","query":"fabiana"}')>
+2020-02-08 03:54:55,919 INFO     br_v1
+2020-02-08 03:54:55,919 INFO     <MultiDictProxy('timestamp': '1581144895', 'username': 'admin', 'hmac': '08abfe7bfb34494f33e74a7bb60a4010d533c04e', 'params': '{"method":"hospedes.rpc_get","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec"}')>
+2020-02-08 03:55:01,883 INFO     br_v1
+2020-02-08 03:55:01,883 INFO     <MultiDictProxy('timestamp': '1581144901', 'username': 'admin', 'hmac': '42b4143c6c28b790dd8d387516e5ea63872c9074', 'params': '{"method":"hospedes.rpc_save","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec","data_cadastro":"15/06/2016","nome":"FABIANA BORGES DE ALMEIDA","mae":"maria de lourdes b, de almeida","cpf":"","rg":"mg17206597","naturalidade":"","nascimento":"17/11/1992","nacionalidade":"Brasileira","profissao":"","empresa":"","carroplaca":"","procedencia":"","destino":"","endereco":"rua arcanio pereira","bairro":"copasa","cidade":"novo cruzeiro","estado":"mg","cep":"39820000","telefones":"33 88599661","email":"","extras":"14/06/2016","usuario":"admin"}')>
+2020-02-08 03:58:56,606 INFO     br_v1
+2020-02-08 03:58:56,606 INFO     <MultiDictProxy('timestamp': '1581145136', 'username': 'admin', 'hmac': 'f0ef6d12d3c6d76cb1d9df0f7132909ef21e0836', 'params': '{"method":"hospedes.rpc_save","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec","data_cadastro":"15/06/2016","nome":"FABIANA BORGES DE ALMEIDA","mae":"maria de lourdes b, de almeida","cpf":"","rg":"mg17206597","naturalidade":"","nascimento":"17/11/1992","nacionalidade":"Brasileira","profissao":"","empresa":"","carroplaca":"","procedencia":"","destino":"","endereco":"rua arcanio pereira","bairro":"copasa","cidade":"novo cruzeiro","estado":"mg","cep":"39820000","telefones":"33 88599661","email":"","extras":"14/06/2016","usuario":"admin"}')>
+2020-02-08 03:58:58,468 INFO     br_v1
+2020-02-08 03:58:58,469 INFO     <MultiDictProxy('timestamp': '1581145138', 'username': 'admin', 'hmac': 'e1d066464ddf07a2d03189f377178e2775e4306e', 'params': '{"method":"hospedes.rpc_save","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec","data_cadastro":"15/06/2016","nome":"FABIANA BORGES DE ALMEIDA","mae":"maria de lourdes b, de almeida","cpf":"","rg":"mg17206597","naturalidade":"","nascimento":"17/11/1992","nacionalidade":"Brasileira","profissao":"","empresa":"","carroplaca":"","procedencia":"","destino":"","endereco":"rua arcanio pereira","bairro":"copasa","cidade":"novo cruzeiro","estado":"mg","cep":"39820000","telefones":"33 88599661","email":"","extras":"14/06/2016","usuario":"admin"}')>
+2020-02-08 03:59:05,043 INFO     br_v1
+2020-02-08 03:59:05,043 INFO     <MultiDictProxy('timestamp': '1581145145', 'username': 'admin', 'hmac': 'a3ad767cda076d0d874cb40faeca048f4aca8746', 'params': '{"method":"hospedes.rpc_save","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec","data_cadastro":"15/06/2016","nome":"FABIANA BORGES DE ALMEIDA","mae":"maria de lourdes b, de almeida","cpf":"","rg":"mg17206597","naturalidade":"","nascimento":"17/11/1992","nacionalidade":"","profissao":"","empresa":"","carroplaca":"","procedencia":"","destino":"","endereco":"rua arcanio pereira","bairro":"copasa","cidade":"novo cruzeiro","estado":"mg","cep":"39820000","telefones":"33 88599661","email":"","extras":"14/06/2016","usuario":"admin"}')>
+2020-02-08 03:59:09,114 INFO     br_v1
+2020-02-08 03:59:09,114 INFO     <MultiDictProxy('timestamp': '1581145149', 'username': 'admin', 'hmac': '86b55a4c6b37f6ec7bd9f0136cd56851ac327e99', 'params': '{"method":"hospedes.rpc_get","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec"}')>
+2020-02-08 03:59:09,562 INFO     br_v1
+2020-02-08 03:59:09,562 INFO     <MultiDictProxy('timestamp': '1581145149', 'username': 'admin', 'hmac': '0b46e2f3fc15671401e118ce2ea5fa8dfa19a41f', 'params': '{"method":"hospedes.rpc_get","uuid":"d4df8cb1-a36b-44dd-8ec9-7bb95a664522-1445547535.44-a45d362963ec"}')>
+2020-02-08 03:59:10,697 INFO     br_v1
+2020-02-08 03:59:10,697 INFO     <MultiDictProxy('timestamp': '1581145150', 'username': 'admin', 'hmac': 'b92d3c760f61f7af67af5f025554385f986cb9cc', 'params': '{"method":"hospedes.rpc_get","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec"}')>
+2020-02-08 03:59:12,681 INFO     br_v1
+2020-02-08 03:59:12,682 INFO     <MultiDictProxy('timestamp': '1581145152', 'username': 'admin', 'hmac': '05e62d1e0789fa15f1da689efb1ec29865392a6e', 'params': '{"method":"hospedes.rpc_get","uuid":"9079ed13-d2c4-4367-8c9e-687daa923b22-1456103596.93-a45d362963ec"}')>
+2020-02-08 03:59:23,121 INFO     br_v1
+2020-02-08 03:59:23,121 INFO     <MultiDictProxy('timestamp': '1581145163', 'username': 'admin', 'hmac': '907a65f1818d759fa2b852fab51ad0df99bbc459', 'params': '{"method":"hospedes.rpc_get","uuid":"54d84af7-d46c-4a75-b2b3-fabf3b748c58-1445547366.43-a45d362963ec"}')>
+2020-02-08 03:59:29,833 INFO     br_v1
+2020-02-08 03:59:29,833 INFO     <MultiDictProxy('timestamp': '1581145169', 'username': 'admin', 'hmac': '4acd723b139accf107dc4a4a70d996afe2ccef2f', 'params': '{"method":"hospedes.rpc_save","uuid":"54d84af7-d46c-4a75-b2b3-fabf3b748c58-1445547366.43-a45d362963ec","data_cadastro":"22/10/2015","nome":"FABIANA DE MELO SECCO","mae":"","cpf":"03081096600","rg":"8787679","naturalidade":"","nascimento":"","nacionalidade":"br","profissao":"","empresa":"","carroplaca":"","procedencia":"","destino":"","endereco":"R PROF JOSÉ CARVALHO 135","bairro":"","cidade":"GOVERNADOR VALADARES","estado":"MG","cep":"","telefones":"33-9971 3053","email":"","extras":"APT ST 01 PESSOA 60,00 05/05/2011","usuario":"admin"}')>
+2020-02-08 03:59:33,417 INFO     br_v1
+2020-02-08 03:59:33,417 INFO     <MultiDictProxy('timestamp': '1581145173', 'username': 'admin', 'hmac': '0aee973e16001df081b7ddb01928b9385ef400d0', 'params': '{"method":"hospedes.rpc_save","uuid":"54d84af7-d46c-4a75-b2b3-fabf3b748c58-1445547366.43-a45d362963ec","data_cadastro":"22/10/2015","nome":"FABIANA DE MELO SECCO","mae":"","cpf":"03081096600","rg":"8787679","naturalidade":"","nascimento":"","nacionalidade":"br","profissao":"","empresa":"","carroplaca":"","procedencia":"","destino":"","endereco":"R PROF JOSÉ CARVALHO 135","bairro":"","cidade":"GOVERNADOR VALADARES","estado":"MG","cep":"","telefones":"33-9971 3053","email":"","extras":"APT ST 01 PESSOA 60,00 05/05/2011","usuario":"admin"}')>
+2020-02-08 04:05:01,522 INFO     Starting http server
+2020-02-08 04:05:07,227 INFO     br_v1
+2020-02-08 04:05:07,227 INFO     <MultiDictProxy('timestamp': '1581145507', 'username': 'admin', 'hmac': 'd9964f1129d57efb5c7f252f6ea89ad50ac0b083', 'params': '{"method":"hospedes.rpc_save","uuid":"54d84af7-d46c-4a75-b2b3-fabf3b748c58-1445547366.43-a45d362963ec","data_cadastro":"22/10/2015","nome":"FABIANA DE MELO SECCO","mae":"","cpf":"03081096600","rg":"8787679","naturalidade":"","nascimento":"","nacionalidade":"br","profissao":"","empresa":"","carroplaca":"","procedencia":"","destino":"","endereco":"R PROF JOSÉ CARVALHO 135","bairro":"","cidade":"GOVERNADOR VALADARES","estado":"MG","cep":"","telefones":"33-9971 3053","email":"","extras":"APT ST 01 PESSOA 60,00 05/05/2011","usuario":"admin"}')>
+2020-02-08 04:19:47,916 INFO     Starting http server
+2020-02-08 04:19:54,902 INFO     br_v1
+2020-02-08 04:19:54,903 INFO     <MultiDictProxy('timestamp': '1581146394', 'username': 'admin', 'hmac': 'de3b80ade8fab9dff264ecac133806c2fd9ab044', 'params': '{"method":"hospedes.rpc_get","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec"}')>
+2020-02-08 04:20:09,224 INFO     br_v1
+2020-02-08 04:20:09,225 INFO     <MultiDictProxy('timestamp': '1581146409', 'username': 'admin', 'hmac': '00db84e882fa5aed374a61401b575179dd9525b8', 'params': '{"method":"hospedes.rpc_save","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec","data_cadastro":"15/06/2016","nome":"FABIANA BORGES DE ALMEIDA","mae":"maria de lourdes b, de almeida","cpf":"","rg":"mg17206597","naturalidade":"","nascimento":"17/11/1992","nacionalidade":"Brasileira","profissao":"","empresa":"","carroplaca":"","procedencia":"","destino":"","endereco":"rua arcanio pereira","bairro":"copasa","cidade":"novo cruzeiro","estado":"mg","cep":"39820000","telefones":"33 88599661","email":"","extras":"14/06/2016","usuario":"admin"}')>
+2020-02-08 04:20:11,797 INFO     br_v1
+2020-02-08 04:20:11,797 INFO     <MultiDictProxy('timestamp': '1581146411', 'username': 'admin', 'hmac': '2788e98d669112a8ffff9d41242c9767c0959851', 'params': '{"method":"hospedes.rpc_get","uuid":"9079ed13-d2c4-4367-8c9e-687daa923b22-1456103596.93-a45d362963ec"}')>
+2020-02-08 04:20:12,508 INFO     br_v1
+2020-02-08 04:20:12,509 INFO     <MultiDictProxy('timestamp': '1581146412', 'username': 'admin', 'hmac': '3c2649c24c7e963ccbb8d47c8bb0179a08a66b42', 'params': '{"method":"hospedes.rpc_get","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec"}')>
+2020-02-08 04:20:18,997 INFO     br_v1
+2020-02-08 04:20:18,997 INFO     <MultiDictProxy('timestamp': '1581146418', 'username': 'admin', 'hmac': 'f4a10293d71076c045352377c3d0b6b2fcc62bbd', 'params': '{"method":"hospedes.rpc_save","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec","data_cadastro":"15/06/2016","nome":"FABIANA BORGES DE ALMEIDA","mae":"maria de lourdes b, de almeida","cpf":"","rg":"mg17206597","naturalidade":"","nascimento":"17/11/1992","nacionalidade":"Brasileira","profissao":"Gostosa","empresa":"","carroplaca":"","procedencia":"","destino":"","endereco":"rua arcanio pereira","bairro":"copasa","cidade":"novo cruzeiro","estado":"mg","cep":"39820000","telefones":"33 88599661","email":"","extras":"14/06/2016","usuario":"admin"}')>
+2020-02-08 04:20:20,501 INFO     br_v1
+2020-02-08 04:20:20,501 INFO     <MultiDictProxy('timestamp': '1581146420', 'username': 'admin', 'hmac': '7619d052140533d2b8321b3d72f9906f94a33a71', 'params': '{"method":"hospedes.rpc_get","uuid":"f4ca5ac8-5287-45a6-8ce1-8d1b6c9aef02-1445891193.94-a45d362963ec"}')>
+2020-02-08 04:20:21,180 INFO     br_v1
+2020-02-08 04:20:21,181 INFO     <MultiDictProxy('timestamp': '1581146421', 'username': 'admin', 'hmac': '37300d12832a73aa5589c20036118440b08c24cf', 'params': '{"method":"hospedes.rpc_get","uuid":"9079ed13-d2c4-4367-8c9e-687daa923b22-1456103596.93-a45d362963ec"}')>
+2020-02-08 04:20:23,236 INFO     br_v1
+2020-02-08 04:20:23,236 INFO     <MultiDictProxy('timestamp': '1581146423', 'username': 'admin', 'hmac': '01ef8c263c4cda1947fa4c0d5779766dffa1bc22', 'params': '{"method":"hospedes.rpc_get","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec"}')>
+2020-02-08 04:20:30,604 INFO     br_v1
+2020-02-08 04:20:30,605 INFO     <MultiDictProxy('timestamp': '1581146430', 'username': 'admin', 'hmac': 'a94f218e59fee391db903d099bd3f163ef17ed4b', 'params': '{"method":"hospedes.rpc_save","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec","data_cadastro":"15/06/2016","nome":"FABIANA BORGES DE ALMEIDA","mae":"maria de lourdes b, de almeida","cpf":"","rg":"mg17206597","naturalidade":"","nascimento":"17/11/1992","nacionalidade":"Brasileira","profissao":"Enfermeira gostosa","empresa":"","carroplaca":"","procedencia":"","destino":"","endereco":"rua arcanio pereira","bairro":"copasa","cidade":"novo cruzeiro","estado":"mg","cep":"39820000","telefones":"33 88599661","email":"","extras":"14/06/2016","usuario":"admin"}')>
+2020-02-08 04:20:31,627 INFO     br_v1
+2020-02-08 04:20:31,627 INFO     <MultiDictProxy('timestamp': '1581146431', 'username': 'admin', 'hmac': 'bd1c04a99e4768d6edaea15587dcb861b18f3a14', 'params': '{"method":"hospedes.rpc_get","uuid":"f4ca5ac8-5287-45a6-8ce1-8d1b6c9aef02-1445891193.94-a45d362963ec"}')>
+2020-02-08 04:20:32,283 INFO     br_v1
+2020-02-08 04:20:32,283 INFO     <MultiDictProxy('timestamp': '1581146432', 'username': 'admin', 'hmac': '6cc78e320097ffc1340c72a58e4dc702c8f677c6', 'params': '{"method":"hospedes.rpc_get","uuid":"9079ed13-d2c4-4367-8c9e-687daa923b22-1456103596.93-a45d362963ec"}')>
+2020-02-08 04:20:34,731 INFO     br_v1
+2020-02-08 04:20:34,731 INFO     <MultiDictProxy('timestamp': '1581146434', 'username': 'admin', 'hmac': '921887de7cf6d31aa63c72628bf515a98fb9e71f', 'params': '{"method":"hospedes.rpc_get","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec"}')>
+2020-02-08 04:20:40,819 INFO     br_v1
+2020-02-08 04:20:40,819 INFO     <MultiDictProxy('timestamp': '1581146440', 'username': 'admin', 'hmac': 'fbd0e3b5b75a3c1ac5a4f49c73083dff24dff9da', 'params': '{"method":"hospedes.rpc_save","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec","data_cadastro":"15/06/2016","nome":"FABIANA BORGES DE ALMEIDA","mae":"maria de lourdes b, de almeida","cpf":"","rg":"mg17206597","naturalidade":"","nascimento":"17/11/1992","nacionalidade":"Brasileira","profissao":"Enfermeira","empresa":"","carroplaca":"","procedencia":"","destino":"","endereco":"rua arcanio pereira","bairro":"copasa","cidade":"novo cruzeiro","estado":"mg","cep":"39820000","telefones":"33 88599661","email":"","extras":"14/06/2016","usuario":"admin"}')>
+2020-02-08 04:20:42,011 INFO     br_v1
+2020-02-08 04:20:42,011 INFO     <MultiDictProxy('timestamp': '1581146442', 'username': 'admin', 'hmac': 'c684f0ba53571f217cf7509ce03c09e0337a5964', 'params': '{"method":"hospedes.rpc_get","uuid":"9079ed13-d2c4-4367-8c9e-687daa923b22-1456103596.93-a45d362963ec"}')>
+2020-02-08 04:20:42,555 INFO     br_v1
+2020-02-08 04:20:42,555 INFO     <MultiDictProxy('timestamp': '1581146442', 'username': 'admin', 'hmac': 'cf389580ca0ba9a6b7e222eed546dc8310d8ab8d', 'params': '{"method":"hospedes.rpc_get","uuid":"8601cbe7-6e26-4ff8-9e21-0492b94bfac5-1466015334.44-a45d362963ec"}')>
