@@ -54,23 +54,19 @@ def call(params):
     username = params['username']
     hmac = params['hmac']
     jparams = params['params']
-    #print(timestamp, username, hmac, jparams)
-    logger.info(params)
     response_code, result = dispatch(timestamp, username, hmac, jparams)
-    print(result)
     return(response_code, json.dumps(result))
 
-def dispatch(timestamp, username, hmac, jparams):
-    logger.info('dispatch')
-    print(timestamp, username, hmac, jparams)
+def dispatch(timestamp, username, hmac, params):
     try:
-        usuario, authenticated = authenticate(timestamp, username, hmac, jparams)
+        usuario, authenticated = authenticate(timestamp, username, hmac, params)
         if not authenticated:
             return (401, 'Unauthorized')
 
-        params = json.loads(jparams)
+        #params = json.loads(jparams)
         params['__classe__'] = usuario['classe']
-        response_code, result = methods[params['method']](params)
+        # response_code, result = methods[params['method']](params)
+        response_code, result = methods[params['method']](params, usuario = usuario['nome'])
         return (response_code, result)
 
     except:
@@ -79,12 +75,11 @@ def dispatch(timestamp, username, hmac, jparams):
 
 def authenticate(timestamp, username, hmac, params):
     try:
-        logger.info('%s', timestamp)
         if (float(timestamp) + time_lag) < time.time():
             return (None, False)
         rc, usuario = usuarios.find({'nome': username})
         password_hash = usuario['password']
-        finalhash = hashlib.sha1(str(timestamp).encode() + params.encode() + password_hash.encode()).hexdigest()
+        finalhash = hashlib.sha1(str(timestamp).encode() + json.dumps(params).encode() + password_hash.encode()).hexdigest()
         if finalhash != hmac:
             return (None, False)
     except:

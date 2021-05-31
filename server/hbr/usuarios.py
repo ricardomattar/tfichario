@@ -16,22 +16,22 @@ from . import db
 
 def require(profile_list):
     def wrapper(func):
-        def check_profile(params):
+        def check_profile(params, **kwargs):
             if params['__classe__'] in profile_list:
-                return func(params)
+                return func(params, **kwargs)
             else:
                 return (401, 'Unauthorized')
         return check_profile
     return wrapper
     
-def rpc_new_id(params):
+def rpc_new_id(params, **kwargs):
     return (200, db.models.suuid())
 
-def rpc_authenticate(params):
+def rpc_authenticate(params, **kwargs):
     return 200, True
     
 @require(['admin', 'gerente'])
-def rpc_get(params):
+def rpc_get(params, **kwargs):
     try:
         usuario_id = params['usuario_id']
         session = db.db.session_maker()
@@ -51,7 +51,7 @@ def rpc_get(params):
 #def rpc_find(params):
 #    return find(params)
 
-def find(params):
+def find(params, **kwargs):
     try:
         nome = params['nome']
         session = db.db.session_maker()
@@ -74,11 +74,11 @@ def find(params):
 #    return query.first()
 
 @require(['admin', 'gerente'])
-def rpc_query(params):
+def rpc_query(params, **kwargs):
     try:
-        nome = params['nome']
+        query = params['query']
         session = db.db.session_maker()
-        q = session.query(db.models.Usuario).filter(db.models.Usuario.nome.ilike(nome + '%'))
+        q = session.query(db.models.Usuario).filter(db.models.Usuario.nome.ilike(query + '%'))
         result_list = []
         for r in q:
             result_list.append(db.helper.row2dict(r))
@@ -94,7 +94,7 @@ def rpc_query(params):
     return result
 
 @require(['admin', 'gerente'])
-def rpc_save(params):
+def rpc_save(params, **kwargs):
     try:
         session = db.db.session_maker()
         usuario_id = params['usuario_id']
@@ -115,7 +115,7 @@ def rpc_save(params):
         
     return result
     
-def insert(params):
+def insert(params, **kwargs):
     try:
         if params['password'].strip() == '':
             raise Exception('Senha vazia')
@@ -130,7 +130,7 @@ def insert(params):
         if params['classe'] != '':
             novo_usuario.classe              = params['classe']
         novo_usuario.nome                    = params['nome']
-        novo_usuario.password                = hashlib.sha1(params['password']).hexdigest()
+        novo_usuario.password                = hashlib.sha1(params['password'].encode()).hexdigest()
         session.add(novo_usuario)
         session.commit()
         result = True
@@ -144,7 +144,7 @@ def insert(params):
         
     return result
         
-def update(params):
+def update(params, **kwargs):
     try:
         session = db.db.session_maker()
         usuario_id = params['usuario_id']
@@ -156,7 +156,8 @@ def update(params):
         usuario.status                  = params['status']
         usuario.classe                  = params['classe']
         usuario.nome                    = params['nome']
-        usuario.password                = hashlib.sha1(params['password']).hexdigest()
+        if usuario.password != params['password']:
+            usuario.password                = hashlib.sha1(params['password'].encode()).hexdigest()
         session.commit()
         result = True
         
@@ -169,14 +170,14 @@ def update(params):
         
     return result
     
-def rpc_change_password(params):
+def rpc_change_password(params, **kwargs):
     try:
         if params['new_password1'] != params['new_password2']:
             raise Exception('Senha incorreta')
-            
+
         session = db.db.session_maker()
         usuario = session.query(db.models.Usuario).filter(db.models.Usuario.nome==params['username']).first()
-        usuario.password = hashlib.sha1(params['new_password1']).hexdigest()
+        usuario.password = hashlib.sha1(params['new_password1'].encode()).hexdigest()
         session.commit()
         result = (200, True)
         

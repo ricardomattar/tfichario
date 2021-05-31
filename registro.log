@@ -28,3 +28,8 @@
 2020-02-09 03:04:23,313 INFO     <MultiDictProxy('timestamp': '1581228263', 'username': 'admin', 'hmac': '23d09abf50f69db176c1e044fdd5811769807761', 'params': '{"method":"hospedes.rpc_get","uuid":"8c7eee65-a401-4a71-975a-35402484c1d2-1445547572.65-a45d362963ec"}')>
 2020-02-09 03:04:23,761 INFO     br_v1
 2020-02-09 03:04:23,761 INFO     <MultiDictProxy('timestamp': '1581228263', 'username': 'admin', 'hmac': 'e7259d16f9d170fa6995e962c2e9babfb3083a3e', 'params': '{"method":"hospedes.rpc_get","uuid":"fcc0970b-12d0-41e2-81ef-6b7b98126760-1445547427.56-a45d362963ec"}')>
+2021-02-22 02:23:17,662 INFO     Starting http server
+2021-02-22 02:23:32,652 INFO     <MultiDictProxy('timestamp': '1613971412', 'username': 'admin', 'hmac': '2dec3dc0ad91aec4c2e463f99f2c0adaedd968bb', 'params': '{"method":"usuarios.rpc_authenticate"}')>
+2021-02-22 02:23:40,552 INFO     <MultiDictProxy('timestamp': '1613971420', 'username': '', 'hmac': '8995caf92c48dd974d3ec915c82d25e17bdbbc06', 'params': '{"method":"usuarios.rpc_query","nome":""}')>
+2021-02-22 02:23:46,181 INFO     <MultiDictProxy('timestamp': '1613971426', 'username': '', 'hmac': '3626ac45bea74a9c5dec320cf3eb4540fbbb65c9', 'params': '{"method":"hospedes.rpc_query","query":"ric"}')>
+2021-02-22 02:23:56,861 INFO     <MultiDictProxy('timestamp': '1613971436', 'username': 'admin', 'hmac': '17093c11305ae3d7d888613fe4f45b2d38ec3e80', 'params': '{"method":"usuarios.rpc_authenticate"}')>

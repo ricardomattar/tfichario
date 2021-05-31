@@ -48,14 +48,22 @@ def message_dispatch():
 async def index(request):
     return web.HTTPFound(os.path.join('static', 'index.html'))
 
+async def teste(request):
+    return web.Response(text="Hello World. This is a shitty world indeed! Whatever it is anyway...")
 
 async def br(request):
-    print('br')
-    logger.info('br_v1')
-    data = await request.post()
+    data = await request.json()
     logger.info(data)
     response_code, result = hbr.consumer.call(data)
-    return web.Response(text=result)
+    if response_code == 200:
+        return web.Response(text=result)
+    elif response_code == 401:
+        raise aiohttp.web.HTTPUnauthorized(text=result)
+    else:
+        raise aiohttp.web.HTTPServerError()
+
+async def timestamp(request):
+    return web.Response(text=str(int(time.time())))
 
 async def websocket_handler(request):
     ws = aiohttp.web.WebSocketResponse()
@@ -78,6 +86,8 @@ def start_httpserver():
     app = web.Application()
 
     app.router.add_get('/', index)
+    app.router.add_get('/teste', teste)
+    app.router.add_get('/timestamp', timestamp)
     app.router.add_static('/static/',
                           path=static_dir,
                           name='static')

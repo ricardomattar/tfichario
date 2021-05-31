@@ -1,0 +1,339 @@
+ Setup Horus python environment
+    Para este exemplo, vou usar o python 3.8.7
+    Os comandos devem ser executados como usuário normal.
+    ########################################################################################
+    # REQUISITOS
+    ########################################################################################
+    $ sudo apt install -y python3-pip
+    $ sudo apt install build-essential libssl-dev libffi-dev python-dev
+    $ sudo apt-get update; sudo apt-get install --no-install-recommends make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+
+    ########################################################################################
+    # SETUP DO PYENV
+    ########################################################################################
+    $ curl https://pyenv.run | bash # comes from https://github.com/pyenv/pyenv-installer
+    #---------------------------------------------------------------------------------------
+    # O PYENV VAI MOSTRAR ALGUMAS LINHAS PARA QUE ADICIONE AO FINAL DO SEU .bashrc
+    #---------------------------------------------------------------------------------------
+
+                # (The below instructions are intended for common
+                # shell setups. See the README for more guidance
+                # if they don't apply and/or don't work for you.)
+
+                # Add pyenv executable to PATH and
+                # enable shims by adding the following
+                # to ~/.profile:
+
+                export PYENV_ROOT="$HOME/.pyenv"
+                export PATH="$PYENV_ROOT/bin:$PATH"
+                eval "$(pyenv init --path)"
+
+                # If your ~/.profile sources ~/.bashrc,
+                # the lines need to be inserted before the part
+                # that does that. See the README for another option.
+
+                # If you have ~/.bash_profile, make sure that it
+                # also executes the above lines -- e.g. by
+                # copying them there or by sourcing ~/.profile
+
+                # Load pyenv into the shell by adding
+                # the following to ~/.bashrc:
+
+                eval "$(pyenv init -)"
+
+                # Make sure to restart your entire logon session
+                # for changes to profile files to take effect.
+
+                # Load pyenv-virtualenv automatically by adding
+                # the following to ~/.bashrc:
+
+                eval "$(pyenv virtualenv-init -)"
+
+
+    $ exec "$SHELL"
+    $ pyenv update
+    $ pyenv install -v 3.8.7
+
+    ########################################################################################
+    # SETUP DO VIRTUALENV
+    ########################################################################################
+    pip3 install --user virtualenv
+
+    ########################################################################################
+    # DEFININDO QUAL VERSÃO DO PYTHON O HORUS UTILIZA
+    ########################################################################################
+    $ cd $DIRETORIO_PROJETO_HORUS
+    $ pyenv local 3.8.7
+    # verifique se a versão definida está funcionando. pode usar python ou python3
+    $ python -V
+    $ python3 -V
+
+    ########################################################################################
+    # CRIANDO O VIRTUALENV EM HORUS
+    ########################################################################################
+    $ cd $DIRETORIO_PROJETO_HORUS
+    $ python3 -m virtualenv venv
+    $ source venv/bin/activate
+    #---------------------------------------------------------------------------------------
+    # uma vez que o virtualenv está ativado, pode usar python ou python3, pip ou pip3
+    #---------------------------------------------------------------------------------------
+    $ python3 -m pip install -U pip setuptools
+    # deactivate
+    #---------------------------------------------------------------------------------------
+    # ignore a pasta venv em .gitignore
+    #---------------------------------------------------------------------------------------
+
+    ########################################################################################
+    # INSTALANDO OS PACOTES A PARTIR DE REQUIREMENTS.TXT
+    ########################################################################################
+    $ cd $DIRETORIO_PROJETO_HORUS
+    $ source venv/bin/activate
+    $ pip install -r requirements.txt
+    $ deactivate
+
+    ########################################################################################
+    # SALVANDO OS REQUISITOS EM REQUIREMENTS.TXT
+    ########################################################################################
+    $ cd $DIRETORIO_PROJETO_HORUS
+    $ source venv/bin/activate
+    $ pip freeze > requirements.txt
+    # salve requirements.txt no versionamento
+    $ deactivate
+
+    ########################################################################################
+    # .gitignore
+    ########################################################################################
+    /venv/
+    *.py[cod]     # Will match .pyc, .pyo and .pyd files.
+    __pycache__/  # Exclude the whole folder
+
+    ########################################################################################
+    # exemplo do .bashrc
+    ########################################################################################
+    # configurado para usar pyenv e local pip installation
+    export PATH="/home/diego/.pyenv/bin:$PATH"
+    eval "$(pyenv init -)"
+    eval "$(pyenv virtualenv-init -)"
+    export PATH="/home/diego/.local/bin:$PATH" #user pip installation dir
+
+
+Managing Python Environments
+
+TL;DR;
+    tools of choice: pyenv, pip, virtualenv and possibly pip-tools, virtualenvwrapper
+    use pyenv to manage multiple python versions.
+    com este documento você poderá ter múltiplas versões de python (usando pyenv). ex.:
+        ~/.pyenv/versions/3.6.1
+        ~/.pyenv/versions/3.7.2
+
+    O projeto pode ter N virtual environments, cada um usando uma versão de python e pacotes específicos instalados pelo PIP. ex.:
+        my_project
+            /venv3.6
+            /venv3.8
+
+Frequently Asked Questions
+    Do I need to install the virtualenv tool for each Python I want to use it with?
+        In most cases, you can use virtualenv -p pythonX env to specify a different Python version, but with some Python version combinations, that approach might be unsuccessful.
+    I’m the only user on my system. Do I still need virtual environments?
+        Yes, you do. First, you will still need separation between projects, sooner or later. Moreover, if you were to install packages system-wide with pip, you might end up causing conflicts between packages installed by the system package manager and by pip. Running sudo pip is never a good idea because of this.
+    I’m using Docker. Do I still need virtual environments?
+        They are still a good idea in that case. They protect you against any bad system-wide Python packages your OS image might have (and one popular base OS is famous for those). They don’t introduce any extra overhead, while allowing to have a clean environment and the ability to re-create it outside of Docker (eg. for local development without Docker)
+    What about Pipenv?
+        Pipenv is a dependency management tool. It isn’t compatible with most workflows, and comes with many issues. In my opinion, it’s not worth using (Also, that thing about it being an officially recommended tool? Turns out it’s not true.)
+
+managing multiple python versions: pyenv
+    also comes with pyenv-virtualenv
+    installation:
+        references:
+            https://realpython.com/intro-to-pyenv/#why-use-pyenv
+            https://github.com/pyenv/pyenv#installation
+        sudo apt-get update; sudo apt-get install --no-install-recommends make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+        # as a normal user:
+        $ curl https://pyenv.run | bash # comes from https://github.com/pyenv/pyenv-installer
+        # setup your .bashrc as asked.
+        $ exec "$SHELL" # Or just restart your terminal
+        $ pyenv update
+        # lists all available packages
+        $ pyenv install --list
+        # lists all available python from 3.6 through 3.8
+        $ pyenv install --list | grep " 3\.[678]"
+        # install a python from sources
+        $ pyenv install -v 3.7.2
+        $ pyenv versions
+        $ ls -al ~/.pyenv/versions/
+        $ which python3
+        ~/.pyenv/shims/python3
+        # This might be surprising, but this is how pyenv works. pyenv inserts itself into your PATH and from your OS’s perspective is the executable that is getting called. If you want to see the actual path, you can run the following:
+        $ pyenv which python3
+        /usr/bin/python3
+        #switch the default python version
+        $ pyenv global 3.7.2
+        $ python3 -V
+        Python 3.7.2
+        # python3 -m test
+        # switch back to the default
+        $ pyenv global system
+        $ python -V
+        Python 2.7.18
+        # to uninstall:
+        ## pyenv uninstall 3.7.2
+        ## or
+        ## rm -rf ~/.pyenv/versions/3.7.2
+        # determine the local python version to work with:
+        $ pyenv local 3.7.2
+        $ python --version
+        Python 3.7.2
+        $ cat .python-version
+        3.8.7
+        # when using pycharm, you have to change the python interpreter in the project settings
+        # for this example, this is the path:
+        ~/.pyenv/versions/3.7.2/bin/python3.7
+
+
+
+
+#virtualenv sample
+    # requirements
+    sudo apt-get install build-essential libssl-dev libffi-dev python-dev
+    sudo apt install python3-pip
+
+    # tour
+    pip3 install --user virtualenv
+    mkdir project
+    cd project
+    python3 -m virtualenv venv
+    source venv/bin/activate
+    python -m pip install -U pip setuptools
+
+    pip install numpy
+    pip list
+    pip freeze > requirements.txt
+    deactivate
+    rm -fr venv
+    python3 -m virtualenv newvenv
+    source newvenv/bin/activate
+    pip install -r requirements.txt
+    pip freeze
+
+    # python específico, só funciona com o virtualenv, não com o built-in venv
+    python3 -m virtualenv -p /usr/bin/python2.7 venv27
+    python3 -m virtualenv -p ~/.pyenv/versions/3.7.2/bin/python3.7 venv_3_7_2_from_pyenv
+
+virtualenv usage
+    There are three ways of working with virtual environments interactively (in a shell):
+    - activation (run source env/bin/activate on *nix; env\Scripts\activate on Windows) — it simplifies work and requires less typing, although it can sometimes fail to work properly.
+    - executing env/bin/python (env\Scripts\python) and other scripts directly, as activation only changes $PATH and some helper variables — those variables are not mandatory for operation, running the correct python is, and that method is failsafe.
+    - in subshells (IMO, it’s bad UX)
+    For non-interactive work (eg. crontab entries, system services, etc.), activation and subshells are not viable solutions. In these cases, you must always use the full path to Python
+
+    Here are some usage examples (paths can be relative, of course):
+
+        ## *nix, activation ##
+        $ source /path/to/env/bin/activate
+        (env)$ pip install Django
+        (env)$ deactivate
+
+        ## *nix, manual execution ##
+        $ /path/to/env/bin/pip install Django
+
+    The same principle applies to running Python itself, or any other script installed by a package. (With Django’s manage.py, calling it as ./manage.py requires activation, or you can run venv/bin/python manage.py.)
+
+
+Add your virtual environment path to your .gitignore
+    example:
+    my_project/.gitignore
+    *.py[cod]     # Will match .pyc, .pyo and .pyd files.
+    __pycache__/  # Exclude the whole folder
+    venv
+
+.bashrc sample
+    # configurado para usar pyenv e local pip installation
+    export PATH="/home/diego/.pyenv/bin:$PATH"
+    eval "$(pyenv init -)"
+    eval "$(pyenv virtualenv-init -)"
+    export PATH="/home/diego/.local/bin:$PATH" #user pip installation dir
+
+other virtual environment managers:
+    built-in: venv
+    virtualenv
+    pipenv
+    pyenv-virtualenv
+    anaconda (conda)
+
+referências:
+    https://chriswarrick.com/blog/2018/09/04/python-virtual-environments/
+    https://chriswarrick.com/blog/2018/07/17/pipenv-promises-a-lot-delivers-very-little
+    https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment
+    https://docs.python.org/3/library/venv.html#module-venv
+    https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server
+    https://www.pluralsight.com/tech-blog/managing-python-environments/
+    https://dev.to/writingcode/the-python-virtual-environment-with-pyenv-pipenv-3mlo
+    https://towardsdatascience.com/python-environment-101-1d68bda3094d
+    https://medium.com/@osintiostom/development-setup-python-pycharm-and-pyenv-418b60992b6f
+    https://www.liquidweb.com/kb/how-to-install-pyenv-on-ubuntu-18-04/
+    https://realpython.com/intro-to-pyenv/#why-use-pyenv
+
+Appendix:
+
+# built-in tool venv sample
+    # requirements
+    sudo apt-get install build-essential libssl-dev libffi-dev python-dev
+    sudo apt install python3-pip
+    sudo apt install python3-venv
+
+    #tour
+    mkdir project
+    cd project
+    python3 -m venv venv
+    source venv/bin/activate
+    pip install numpy
+    pip list
+    pip freeze > requirements.txt
+    deactivate
+    rm -fr venv
+    python3 -m virtualenv newvenv
+    source newvenv/bin/activate
+    pip install -r requirements.txt
+
+sobre shebang:
+    parece que se precisar usar a shebang no virtual env, tem que ser caminho completo. veja o exemplo dos scripts que são instalados no virtualenv e ganham a shebang automaticamente.
+        grep -F "#!" venv/bin/*
+        vai mostrar algo como:
+        #!/home/diego/devel/experimentos/temp/project/venv/bin/python3
+    https://stackoverflow.com/questions/44076804/what-shebang-to-use-for-python-scripts-run-under-a-pyenv-virtualenv
+    https://www.xspdf.com/resolution/50925588.html
+
+virtualenvwrapper
+    virtualenvwrapper is a set of extensions to Ian Bicking’s virtualenv tool.
+    The extensions include wrappers for creating and deleting virtual environments and otherwise managing your
+    development workflow, making it easier to work on more than one project at a time without introducing
+    conflicts in their dependencies.
+
+    https://virtualenvwrapper.readthedocs.io/en/latest/
+
+    ```
+    sudo apt-get update
+    sudo apt-get upgrade
+    python3 -m pip install -U pip setuptools
+    sudo pip3 install virtualenvwrapper
+    ```
+
+    Setup virtualenv by adding these lines to .bashrc
+
+    ```
+    export WORKON_HOME=$HOME/.virtualenvs
+    export PROJECT_HOME=$HOME/<your-dir>
+    source /usr/local/bin/virtualenvwrapper.sh
+    ```
+
+    Log out and back in after changing .bashrc
+
+    Make a virtualenv
+    ```
+    mkvirtualenv snap_env
+    ```
+
+    Use a virtualenv
+    ```
+    workon snap_env
+    ```

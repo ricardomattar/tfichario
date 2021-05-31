@@ -13,6 +13,7 @@ import logging
 import logging.handlers
 logger = logging.getLogger()
 
+import unidecode
 from sqlalchemy import or_
 from . import db
 
@@ -21,13 +22,13 @@ from . import helpers
 def gerar_alerta_alteracao(**kwargs):
     pass
 
-def rpc_authenticate(params):
+def rpc_authenticate(params, **kwargs):
     return 200, True
     
-def rpc_new_id(params):
+def rpc_new_id(params, **kwargs):
     return (200, db.models.suuid())
     
-def rpc_get(params):
+def rpc_get(params, **kwargs):
     try:
         uuid = params['uuid']
         session = db.db.session_maker()
@@ -43,7 +44,7 @@ def rpc_get(params):
         
     return result
                     
-def rpc_query(params):
+def rpc_query(params, **kwargs):
     if len(params['query']) < 2:
         return (200, {})
     try:
@@ -71,8 +72,10 @@ def rpc_query(params):
         
     return result
     
-def rpc_save(params):
-    try:        
+def rpc_save(params, **kwargs):
+    logger.info(params)
+    try:
+        username = kwargs['usuario']
         session = db.db.session_maker()
         uuid = params['uuid']
         if uuid == '':
@@ -120,9 +123,9 @@ def rpc_save(params):
                 raise Exception('Data de nascimento invalida')
             
         if hospede:
-            update(params)
+            update(params, usuario=username)
         else:
-            insert(params)
+            insert(params, usuario=username)
             
         result = (200, True)
         
@@ -135,19 +138,20 @@ def rpc_save(params):
         
     return result
         
-def insert(params):
+def insert(params, **kwargs):
     try:
+        username = kwargs['usuario']
         session = db.db.session_maker()
         hospede = db.models.Hospede()
         
         hospede.uuid          = params['uuid'] #(String(64)    , primary_key = True, default=suuid)
         #hospede.data_cadastro = params['data_cadastro'] #(DateTime      , nullable = False, default=datetime.datetime.utcnow)
-    
+
         nome = params['nome'].upper()
-        nomesa = helpers.dados.remove_acentuacao(nome)
+        nomesa = unidecode.unidecode(nome)
         nomesa = nomesa.upper()
         nome_soundex = helpers.dados.soundex(nome)
-                
+
         hospede.nome          = nomesa
         hospede.nomesoundex   = nome_soundex
         hospede.mae           = params['mae']
@@ -172,7 +176,7 @@ def insert(params):
         hospede.telefones     = params['telefones'] #(String(100))
         hospede.email         = params['email'] #(String(100))
         hospede.extras        = params['extras'] #(String(100))        
-        hospede.usuario       = params['usuario'] #(String(100))        
+        hospede.usuario       = username #(String(100))
         
         session.add(hospede)
         session.commit()
@@ -186,22 +190,25 @@ def insert(params):
     finally:
         session.close()
         
-def update(params):
+def update(params, **kwargs):
     try:
+        username = kwargs['usuario']
         session = db.db.session_maker()
         uuid = params['uuid']
         hospede = session.query(db.models.Hospede).filter(db.models.Hospede.uuid==uuid).first()
-        
+
         nome = params['nome']
-        nomesa = helpers.dados.remove_acentuacao(nome)
+        # nomesa = helpers.dados.remove_acentuacao(nome)
+        nomesa = unidecode.unidecode(nome)
         nomesa = nomesa.upper()
         nome_soundex = helpers.dados.soundex(nome)        
-        
+
+
         alterado = False        
         if hospede.nome          != nomesa:
             gerar_alerta_alteracao(tabela='hospedes', registro=uuid)
             alterado = True
-            
+
         if hospede.nomesoundex   != nome_soundex: alterado = True
         if hospede.mae           != params['mae']: alterado = True
         if hospede.cpf           != params['cpf']:
@@ -245,8 +252,8 @@ def update(params):
             session.add(registro)
             
         
-        hospede.Nome          = nomesa
-        hospede.NomeSoundex   = nome_soundex
+        hospede.nome          = nomesa
+        hospede.nomesoundex   = nome_soundex
         hospede.mae           = params['mae']
         hospede.cpf           = params['cpf'] #(String(40)   , nullable = False)
         hospede.rg            = params['rg'] #(String(40)   , nullable = False)
@@ -269,7 +276,7 @@ def update(params):
         hospede.telefones     = params['telefones'] #(String(100))
         hospede.email         = params['email'] #(String(100))
         hospede.extras        = params['extras'] #(String(100))        
-        hospede.usuario       = params['usuario'] #(String(100))        
+        hospede.usuario       = username #(String(100))
         
         session.commit()
         

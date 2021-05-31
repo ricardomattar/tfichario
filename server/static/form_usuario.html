@@ -1,1 +1,273 @@
-Usuários do sistema
+<div class="container-fluid border">
+    <div class="row">
+        <div class="col-2 border">
+            <div class="row border-bottom">
+                <div>
+                    <table id="tbl_usuarios" class="display table table-striped"
+                           style="height:600px;
+                            width:100%;
+                            overflow-y:scroll;
+                            display:block;
+                            ">
+                        <thead id="table_usuarios_head">
+                        <tr>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Classe</th>
+                            <th scope="col" style="display:none;">ID</th>
+                        </tr>
+                        </thead>
+                        <tbody id="table_usuarios_body">
+                        <tr></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row border-bottom">
+                <div class="col-3">
+                    <label for="pesquisar_usuario">Pesquisar</label>
+                </div>
+                <div class="col-9">
+                    <input class="w-100" type="text" name="pesquisar_usuario" id="pesquisar_usuario" placeholder="Pesquisa">
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 border">
+            <div class="container-fluid" id="div_usuario">
+                <div class="row border-bottom">
+                    <div class="col-3">
+                        <label>Cadastro</label>
+                    </div>
+                </div>
+                <div class="row border-bottom">
+                    <div class="col-3">
+                        <label for="usuario_id">UUID</label>
+                    </div>
+                    <div class="col-9">
+                        <input  class="w-100 f_usuario" type="text" name="usuario_id" id="usuario_id" placeholder="UUID" readonly><br>
+                    </div>
+                </div>
+                <div class="row border-bottom">
+                    <div class="col-3">
+                        <label for="nome">Nome</label>
+                    </div>
+                    <div class="col-9">
+                        <input class="w-100 f_usuario"  type="text" name="nome" id="nome" placeholder="Nome"><br>
+                    </div>
+                </div>
+                <div class="row border-bottom">
+                    <div class="col-3">
+                        <label for="status">Situação</label>
+                    </div>
+                    <div class="col-9">
+<!--                        <input class="w-100 f_usuario"  type="text" name="status" id="status" placeholder="Status"><br>-->
+                        <select class="f_usuario" name="status" id="status">
+                            <option value="ativo">Ativo</option>
+                            <option value="inativo">Inativo</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row border-bottom">
+                    <div class="col-3">
+                        <label for="classe">Classe</label>
+                    </div>
+                    <div class="col-9">
+                        <select class="f_usuario" name="classe" id="classe">
+                            <option value="admin">Admin</option>
+                            <option value="operador">Operador</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row border-bottom">
+                    <div class="col-3">
+                        <label for="email">E-Mail</label>
+                    </div>
+                    <div class="col-9">
+                        <input class="w-100 f_usuario"  type="text" name="email" id="email" placeholder="E-Mail"><br>
+                    </div>
+                </div>
+                <div class="row border-bottom">
+                    <div class="col-3">
+                        <label for="last_login">Ultimo login</label>
+                    </div>
+                    <div class="col-9">
+                        <input class="w-100 f_usuario"  type="text" name="last_login" id="last_login" placeholder="Ultimo login" readonly><br>
+                    </div>
+                </div>
+                <div class="row border-bottom">
+                    <div class="col-3">
+                        <label for="cadastro_data">Data cadastro</label>
+                    </div>
+                    <div class="col-9">
+                        <input class="w-100 f_usuario"  type="text" name="cadastro_data" id="cadastro_data" placeholder="Data cadastro" readonly><br>
+                    </div>
+                </div>
+                <div class="row border-bottom">
+                    <div class="col-3">
+                        <label for="password">Senha</label>
+                    </div>
+                    <div class="col-9">
+                        <input class="w-100 f_usuario"  type="password" name="password" id="password" placeholder="Senha"><br>
+                    </div>
+                </div>
+                <div class="row align-items-end">
+                    <hr>
+                </div>
+                <div class="row align-items-end">
+                    <div class="col-3">
+                        <button id="btn_salvar_usuario" type="button" class="btn btn-outline-primary">Salvar</button>
+                    </div>
+                    <div class="col-3">
+                        <button id="btn_novousuario" type="button" class="btn btn-outline-primary">Novo usuário</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="container-fluid">
+                <div class="row border-bottom">
+                    <div class="col-3">
+                        <label>Mudar senha</label>
+                    </div>
+                </div>
+                <div class="row border-bottom">
+                    <div class="col-3">
+                        <label for="username">Usuario</label>
+                    </div>
+                    <div class="col-9">
+                        <input  class="w-100 f_mudar_senha" type="text" name="username" id="username" placeholder="Usuario"><br>
+                    </div>
+                </div>
+                <div class="row border-bottom">
+                    <div class="col-3">
+                        <label for="password">Senha atual</label>
+                    </div>
+                    <div class="col-9">
+                        <input class="w-100 f_mudar_senha"  type="password" name="password" id="cp_password" placeholder="Senha"><br>
+                    </div>
+                </div>
+                <div class="row border-bottom">
+                    <div class="col-3">
+                        <label for="new_password1">Nova senha</label>
+                    </div>
+                    <div class="col-9">
+                        <input class="w-100 f_mudar_senha"  type="password" name="new_password1" id="new_password1" placeholder="Nova senha"><br>
+                    </div>
+                </div>
+                <div class="row border-bottom">
+                    <div class="col-3">
+                        <label for="new_password2">Repetir senha</label>
+                    </div>
+                    <div class="col-9">
+                        <input class="w-100 f_mudar_senha"  type="password" name="new_password2" id="new_password2" placeholder="Repetir senha"><br>
+                    </div>
+                </div>
+                <div class="row align-items-end">
+                    <hr>
+                </div>
+                <div class="row align-items-end">
+                    <div class="col-3">
+                        <button id="btn_salvar_senha" type="button" class="btn btn-outline-primary">Salvar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    function novo_usuario_callback(data, status) {
+        $("#srv_message_1").val(status);
+        $('.f_usuario').val('');
+        $('.f_usuario#usuario_id').val(JSON.parse(data));
+    }
+
+    function novo_usuario() {
+        var params = {};
+        params['method'] = 'usuarios.rpc_new_id';
+        callserver(novo_usuario_callback,
+            glb_UserName, glb_Password, JSON.stringify(params));
+    }
+
+    function salvar_usuario_callback(data, status) {
+        $("#srv_message_1").val(status);
+        if (status == 200) {
+            mostrar_usuario($("#uuid.val()"));
+        }
+    }
+
+    function salvar_usuario() {
+        var params = {};
+        params['method'] = 'usuarios.rpc_save';
+        // var inp = $("#div_usuario *").filter(':input');
+        var inp = $(".f_usuario");
+        $.each(inp, function(i, item) {
+            params[item.id] = item.value;
+        });
+
+        callserver(salvar_usuario_callback,
+            glb_UserName, glb_Password, JSON.stringify(params));
+
+    }
+
+    function pesquisar_usuario_keypress(event) {
+        //See notes about 'which' and 'key'
+        if (event.which == 13 || event.keyCode == 13) {
+            pesquisar_usuarios();
+        }
+    }
+
+    function mostrar_usuario_keypress(event) {
+        if (event.which == 13 || event.keyCode == 13) {
+            mostrar_usuario();
+        }
+    }
+
+    function mostrar_usuario_click(event) {
+        var uuid = $(event.target).parent().find("td:nth-child(3)").text();
+        mostrar_usuario(uuid);
+    }
+
+    function pesquisar_usuarios_callback(data, status) {
+        $("#srv_message_1").val(status);
+        var lista = JSON.parse(data);
+        var tbl = '';
+        $.each(lista, function(i, item) {
+            tbl += '<tr id=row_' + i + ' onkeypress="mostrar_usuario_keypress(event)" onclick="mostrar_usuario_click(event)">'
+            tbl += '<td>' + item['nome'] +
+                '</td><td>' + item['classe'] +
+                '</td><td style="display:none;">' + item['usuario_id'] +
+                '</td></tr>';
+        });
+
+        $("#tbl_usuarios tbody").html(tbl);
+    }
+
+    function pesquisar_usuarios() {
+        var params = {};
+        params['method'] = 'usuarios.rpc_query';
+        params['nome'] = $("#pesquisar_usuario").val();
+
+        callserver(pesquisar_usuarios_callback,
+            glb_UserName, glb_Password, JSON.stringify(params));
+    }
+
+    function mostrar_usuario_callback(data, status) {
+        var ficha = JSON.parse(data);
+        $.each(ficha, function(key, value) {
+            $('.f_usuario').filter('#' + key).val(value);
+        });
+    }
+
+    function mostrar_usuario(uuid) {
+        var params = {};
+        params['method'] = 'usuarios.rpc_get';
+        params['usuario_id'] = uuid;
+
+        callserver(mostrar_usuario_callback,
+            glb_UserName, glb_Password, JSON.stringify(params));
+    }
+
+</script>

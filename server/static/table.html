@@ -1,0 +1,123 @@
+<!doctype html>
+<html manifest="manifest.appcache">
+<html lang="pt_BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <script type="text/javascript" src="/static/brython/brython.js"></script>
+<!--        <script type="text/javascript" src="/static/brython/brython_modules.js"></script>-->
+        <script type="text/javascript" src="/static/brython/brython_stdlib.js"></script>
+        <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <script src="/static/jquery-3.4.1.min.js"></script>
+        <script src="/static/popper.min.js"></script>
+        <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+<!--        <script src="/static/jquery.dataTables.min.js"></script>-->
+<!--        <script src="/static/dataTables.bootstrap4.min.js"></script>-->
+<!--        <script src="/static/CryptoJS/rollups/sha1.js"></script>-->
+
+        <script> $.getScript( "/static/b/js/globals.js?_=" + (new Date()).getTime() ); </script>
+
+    </head>
+    <body onload="brython()">
+
+<div class="container-fluid bg-light">
+    <div class="col-12">
+    <div class="row" id="cabecalho">
+        <div class="col-12">
+            <span class="badge badge-primary" id="appname">HOTEL</span>
+            <span class="badge badge-primary" id="logged_user">Fazer login</span>
+            <input class="w-100 f_login input-sm col-sm-1 justify-content-end" type="text" name="username" id="login_username" placeholder="Usuario">
+            <input class="w-100 f_login input sm col-sm-1 justify-content-end"  type="password" name="password" id="login_password" placeholder="Senha">
+            <button id="btn_login" type="button" class="btn btn-outline-primary btn-sm justify-content-end">Login</button>
+            <button id="btn_logoff" type="button" class="btn btn-outline-secondary btn-sm justify-content-end">Logoff</button>
+            <label class="float-right" id="header_message"></label>
+        </div>
+    </div>
+    <div><hr></div>
+    <div class="row">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+<!--          <li class="nav-item">-->
+<!--            <a class="nav-link active" id="login-tab" data-toggle="tab" href="#tab_login" role="tab">Login</a>-->
+<!--          </li>-->
+          <li class="nav-item">
+            <a class="nav-link" id="usuarios-tab" data-toggle="tab" href="#tab_usuarios" role="tab">Usuários</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" id="hospedes-tab" data-toggle="tab" href="#tab_ficha_hospede" role="tab">Hospedes</a>
+          </li>
+        </ul>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="tab-content" id="myTabContent">
+<!--              <div class="tab-pane fade show active" id="tab_login" role="tabpanel">...</div>-->
+              <div class="tab-pane fade" id="tab_usuarios" role="tabpanel">...</div>
+              <div class="tab-pane fade show active" id="tab_ficha_hospede" role="tabpanel">
+                  <div class="row">
+                    <table id="tbl_pesquisa" class="display table table-striped header-fixed"
+                                style="height:600px;
+                                width:100%;
+                                overflow-y:scroll;
+                                display:block;
+                                ">
+                      <thead>
+                        <tr>
+                          <th scope="col">Nome</th>
+                          <th scope="col">CPF</th>
+                          <th scope="col">RG</th>
+                          <th scope="col">ID</th>
+                        </tr>
+                      </thead>
+                      <tbody id="tabela_dados">
+                      <tr></tr>
+                      </tbody>
+                    </table>
+
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="rodape">
+        <div class="col-4">
+            <textarea class="form-control" id="srv_message_1" readonly rows="1" cols="30"> </textarea>
+        </div>
+        <div class="col-4">
+            <textarea class="form-control" id="srv_message_2" readonly rows="1" cols="30"> </textarea>
+        </div>
+        <div class="col-4">
+            <textarea class="form-control" id="srv_message_3" readonly rows="1" cols="30"> </textarea>
+        </div>
+    </div>
+</div>
+</div>
+
+
+</body>
+
+<script type="text/python">
+    from browser import document, aio, alert
+
+    def alerta(ev):
+        alert(ev.currentTarget.id)
+
+
+    tbl = ''
+    for i in range(20):
+        tbl += '<tr class="linhaficha" id="%s"' % i
+        tbl += '><td>' + '<input type="text" name="nome" id="nome" placeholder="Nome">'
+        tbl += '</td><td>' + '<input type="text" name="cpf" id="cpf" placeholder="CPF">'
+        tbl += '</td><td>' + '<input type="text" name="rg" id="rg" placeholder="RG">'
+        tbl += '</td><td>' + '<input type="text" name="uuid" id="uuid" placeholder="uuid">'
+        tbl += '</td></tr>'
+
+    document["tabela_dados"].html = tbl
+    for i in range(20):
+        document["%s" % i].bind("click", alerta)
+
+</script>
+
+
+</html>
