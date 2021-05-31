@@ -3404,3 +3404,4 @@
 2021-05-12 18:05:28,437 INFO     {'timestamp': '1620853528', 'username': 'admin', 'hmac': 'bc999d8335f25f8ffe7d2335948d16a273073358', 'params': {'method': 'hospedes.rpc_get', 'uuid': 'cef53be0-c32d-4e40-9879-c54e30729339-1445547562.12-a45d362963ec'}}
 2021-05-12 18:05:29,495 INFO     {'timestamp': '1620853529', 'username': 'admin', 'hmac': '852c037dce572eef70638117b229c845647e6a8c', 'params': {'method': 'hospedes.rpc_get', 'uuid': '5f4354be-06a4-443d-bf5f-ea0b673a41a2-1445547587.71-a45d362963ec'}}
 2021-05-12 18:05:30,673 INFO     {'timestamp': '1620853530', 'username': 'admin', 'hmac': 'd0b1aceca9ba069d4a386c42671108d2934c1baa', 'params': {'method': 'hospedes.rpc_get', 'uuid': '2d844047-7908-4963-b646-e48508b5d37c-1445547474.77-a45d362963ec'}}
+2021-05-31 19:24:17,010 INFO     Starting http server
